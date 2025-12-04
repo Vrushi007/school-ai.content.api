@@ -1,0 +1,19 @@
+# Use this compose file when you have a local PostgreSQL instance
+# Usage: docker compose -f docker-compose.local.yml up
+
+services:
+  content-service:
+    build: .
+    container_name: content-service
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8090 --reload
+    volumes:
+      - .:/app
+    ports:
+      - "8090:8090"
+    environment:
+      # Use DATABASE_URL from .env file
+      DATABASE_URL: ${DATABASE_URL}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+

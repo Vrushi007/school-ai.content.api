@@ -1,0 +1,36 @@
+# Production Docker Compose configuration
+# Usage: docker compose -f docker-compose.prod.yml up -d
+
+services:
+  content-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    container_name: content-service-prod
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      # Add other environment variables as needed
+      ENVIRONMENT: production
+      LOG_LEVEL: info
+    restart: always
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    # Remove volumes in production - code is baked into image
+    # volumes:
+    #   - .:/app
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+

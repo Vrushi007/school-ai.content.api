@@ -1,0 +1,184 @@
+[
+  {
+    "name": "CBSE",
+    "description": "Central Board of Secondary Education",
+    "state_code": null
+  },
+  {
+    "name": "ICSE",
+    "description": "Indian Certificate of Secondary Education",
+    "state_code": null
+  },
+  {
+    "name": "IB",
+    "description": "International Baccalaureate",
+    "state_code": null
+  },
+  {
+    "name": "IGCSE",
+    "description": "International General Certificate of Secondary Education",
+    "state_code": null
+  },
+  {
+    "name": "NIOS",
+    "description": "National Institute of Open Schooling",
+    "state_code": null
+  },
+  {
+    "name": "Karnataka State Board",
+    "description": "Karnataka Secondary Education Examination Board",
+    "state_code": "KA"
+  },
+  {
+    "name": "Tamil Nadu State Board",
+    "description": "Tamil Nadu State Board of Secondary Education",
+    "state_code": "TN"
+  },
+  {
+    "name": "Maharashtra State Board",
+    "description": "Maharashtra State Board of Secondary and Higher Secondary Education",
+    "state_code": "MH"
+  },
+  {
+    "name": "Kerala State Board",
+    "description": "Kerala Board of Public Examinations",
+    "state_code": "KL"
+  },
+  {
+    "name": "Andhra Pradesh State Board",
+    "description": "Andhra Pradesh Board of Secondary Education",
+    "state_code": "AP"
+  },
+  {
+    "name": "Telangana State Board",
+    "description": "Telangana State Board of Intermediate Education",
+    "state_code": "TS"
+  },
+  {
+    "name": "Gujarat State Board",
+    "description": "Gujarat Secondary and Higher Secondary Education Board",
+    "state_code": "GJ"
+  },
+  {
+    "name": "Rajasthan State Board",
+    "description": "Rajasthan Board of Secondary Education",
+    "state_code": "RJ"
+  },
+  {
+    "name": "West Bengal State Board",
+    "description": "West Bengal Board of Secondary Education",
+    "state_code": "WB"
+  },
+  {
+    "name": "Uttar Pradesh State Board",
+    "description": "Uttar Pradesh Board of High School and Intermediate Education",
+    "state_code": "UP"
+  },
+  {
+    "name": "Bihar State Board",
+    "description": "Bihar School Examination Board",
+    "state_code": "BR"
+  },
+  {
+    "name": "Madhya Pradesh State Board",
+    "description": "Madhya Pradesh Board of Secondary Education",
+    "state_code": "MP"
+  },
+  {
+    "name": "Punjab State Board",
+    "description": "Punjab School Education Board",
+    "state_code": "PB"
+  },
+  {
+    "name": "Haryana State Board",
+    "description": "Board of School Education Haryana",
+    "state_code": "HR"
+  },
+  {
+    "name": "Odisha State Board",
+    "description": "Board of Secondary Education Odisha",
+    "state_code": "OD"
+  },
+  {
+    "name": "Assam State Board",
+    "description": "Board of Secondary Education Assam",
+    "state_code": "AS"
+  },
+  {
+    "name": "Jharkhand State Board",
+    "description": "Jharkhand Academic Council",
+    "state_code": "JH"
+  },
+  {
+    "name": "Chhattisgarh State Board",
+    "description": "Chhattisgarh Board of Secondary Education",
+    "state_code": "CG"
+  },
+  {
+    "name": "Goa State Board",
+    "description": "Goa Board of Secondary and Higher Secondary Education",
+    "state_code": "GA"
+  },
+  {
+    "name": "Himachal Pradesh State Board",
+    "description": "Himachal Pradesh Board of School Education",
+    "state_code": "HP"
+  },
+  {
+    "name": "Uttarakhand State Board",
+    "description": "Uttarakhand Board of School Education",
+    "state_code": "UK"
+  },
+  {
+    "name": "VTU",
+    "description": "Visvesvaraya Technological University",
+    "state_code": "KA"
+  },
+  { "name": "BU", "description": "Bangalore University", "state_code": "KA" },
+  { "name": "MU", "description": "Mumbai University", "state_code": "MH" },
+  {
+    "name": "JNTU",
+    "description": "Jawaharlal Nehru Technological University",
+    "state_code": "TS"
+  },
+  {
+    "name": "Anna University",
+    "description": "Anna University",
+    "state_code": "TN"
+  },
+  {
+    "name": "IIT",
+    "description": "Indian Institutes of Technology",
+    "state_code": null
+  },
+  {
+    "name": "NIT",
+    "description": "National Institutes of Technology",
+    "state_code": null
+  },
+  {
+    "name": "UPSC",
+    "description": "Union Public Service Commission",
+    "state_code": null
+  },
+  {
+    "name": "SSC",
+    "description": "Staff Selection Commission",
+    "state_code": null
+  },
+  {
+    "name": "JEE",
+    "description": "Joint Entrance Examination",
+    "state_code": null
+  },
+  {
+    "name": "NEET",
+    "description": "National Eligibility cum Entrance Test",
+    "state_code": null
+  },
+  {
+    "name": "Banking Exams",
+    "description": "Banking Recruitment Examinations (IBPS, SBI)",
+    "state_code": null
+  }
+]

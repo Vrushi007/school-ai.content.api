@@ -1,0 +1,349 @@
+[
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Numbers",
+    "description": "Introduction to numbers and counting"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "English",
+    "chapter_number": 1,
+    "title": "Alphabet and Sounds",
+    "description": "Basics of English alphabet"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "Environmental Studies",
+    "chapter_number": 1,
+    "title": "Myself",
+    "description": "Understanding self and surroundings"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 2",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Addition and Subtraction",
+    "description": "Basics of arithmetic"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 2",
+    "subject_name": "English",
+    "chapter_number": 1,
+    "title": "Sentences",
+    "description": "Understanding simple sentences"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 2",
+    "subject_name": "Environmental Studies",
+    "chapter_number": 1,
+    "title": "Plants Around Us",
+    "description": "Types and uses of plants"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Knowing Our Numbers",
+    "description": "Large numbers and comparison"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Food: Where Does It Come From?",
+    "description": "Sources and components of food"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "What, Where, How and When?",
+    "description": "Introduction to history and timeline"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 7",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Integers",
+    "description": "Understanding positive and negative numbers"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 7",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Nutrition in Plants",
+    "description": "Modes and process of nutrition"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 7",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "Tracing Changes Through a Thousand Years",
+    "description": "Historical developments in medieval India"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 8",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Rational Numbers",
+    "description": "Operations and properties of rational numbers"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 8",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Crop Production & Management",
+    "description": "Farming practices and crop cycle"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 8",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "How, When & Where",
+    "description": "Colonial era historical understanding"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Number Systems",
+    "description": "Rational and irrational numbers"
+  },
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Matter in Our Surroundings",
+    "description": "States of matter and properties"
+  },
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "The French Revolution",
+    "description": "Beginning of modern era"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Real Numbers",
+    "description": "Euclid’s division lemma and real number properties"
+  },
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Chemical Reactions and Equations",
+    "description": "Basics of chemical changes and equations"
+  },
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "Resources and Development",
+    "description": "Types and use of natural resources"
+  },
+
+  {
+    "syllabus_name": "ICSE Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "English",
+    "chapter_number": 1,
+    "title": "My Family",
+    "description": "Simple comprehension and vocabulary"
+  },
+  {
+    "syllabus_name": "ICSE Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Diversity in Living Organisms",
+    "description": "Introduction to classification"
+  },
+  {
+    "syllabus_name": "ICSE Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Physics",
+    "chapter_number": 1,
+    "title": "Motion",
+    "description": "Distance, displacement, speed and velocity"
+  },
+  {
+    "syllabus_name": "ICSE Class 10",
+    "class_name": "Class 10",
+    "subject_name": "Chemistry",
+    "chapter_number": 1,
+    "title": "Periodic Table",
+    "description": "Modern periodic law and trends"
+  },
+
+  {
+    "syllabus_name": "Karnataka Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "Kannada",
+    "chapter_number": 1,
+    "title": "Nanna Mane",
+    "description": "Basic Kannada vocabulary"
+  },
+  {
+    "syllabus_name": "Karnataka Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Living and Non-Living",
+    "description": "Characteristics of living things"
+  },
+  {
+    "syllabus_name": "Karnataka Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Matter",
+    "description": "Properties and classification"
+  },
+  {
+    "syllabus_name": "Karnataka SSLC",
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Electricity",
+    "description": "Electric current, resistance and circuits"
+  },
+  {
+    "syllabus_name": "Karnataka SSLC",
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Real Numbers",
+    "description": "Euclid’s division lemma"
+  },
+
+  {
+    "syllabus_name": "Tamil Nadu Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "Tamil",
+    "chapter_number": 1,
+    "title": "என் குடும்பம்",
+    "description": "Basic Tamil vocabulary"
+  },
+  {
+    "syllabus_name": "Tamil Nadu Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Measurements",
+    "description": "Units and measurement tools"
+  },
+  {
+    "syllabus_name": "Tamil Nadu Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Sets",
+    "description": "Introduction to set theory"
+  },
+  {
+    "syllabus_name": "Tamil Nadu SSLC",
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Life Processes",
+    "description": "Nutrition, respiration, excretion"
+  },
+
+  {
+    "syllabus_name": "Maharashtra Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "Marathi",
+    "chapter_number": 1,
+    "title": "माझं घर",
+    "description": "Basic Marathi comprehension"
+  },
+  {
+    "syllabus_name": "Maharashtra Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Living Things",
+    "description": "Classification and properties"
+  },
+  {
+    "syllabus_name": "Maharashtra Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Laws of Motion",
+    "description": "Newton’s laws and applications"
+  },
+  {
+    "syllabus_name": "Maharashtra SSC",
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Chemical Reactions",
+    "description": "Types of chemical changes"
+  },
+
+  {
+    "syllabus_name": "Kerala Class 1-5",
+    "class_name": "Class 1",
+    "subject_name": "Malayalam",
+    "chapter_number": 1,
+    "title": "എന്റെ വീട്ടിൽ",
+    "description": "Basic Malayalam reading"
+  },
+  {
+    "syllabus_name": "Kerala Class 6-8",
+    "class_name": "Class 6",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Root System",
+    "description": "Parts and functions of roots"
+  },
+  {
+    "syllabus_name": "Kerala Class 9",
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Polynomials",
+    "description": "Introduction to polynomials"
+  },
+  {
+    "syllabus_name": "Kerala SSLC",
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Chemical Reactions",
+    "description": "Balancing equations and reactions"
+  }
+]

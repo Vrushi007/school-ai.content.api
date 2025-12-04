@@ -1,0 +1,433 @@
+[
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 1",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 1",
+    "name": "English"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 1",
+    "name": "Environmental Studies"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 2",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 2",
+    "name": "English"
+  },
+  {
+    "syllabus_name": "CBSE Class 1-5",
+    "class_name": "Class 2",
+    "name": "Environmental Studies"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 6",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 6",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 6",
+    "name": "Social Science"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 7",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 7",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 7",
+    "name": "Social Science"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 8",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 8",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 6-8",
+    "class_name": "Class 8",
+    "name": "Social Science"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "name": "Social Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 9",
+    "class_name": "Class 9",
+    "name": "English"
+  },
+
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "name": "Social Science"
+  },
+  {
+    "syllabus_name": "CBSE Class 10",
+    "class_name": "Class 10",
+    "name": "English"
+  },
+
+  {
+    "syllabus_name": "ICSE Class 1-5",
+    "class_name": "Class 1",
+    "name": "English"
+  },
+  {
+    "syllabus_name": "ICSE Class 1-5",
+    "class_name": "Class 1",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "ICSE Class 6-8",
+    "class_name": "Class 6",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "ICSE Class 6-8",
+    "class_name": "Class 6",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "ICSE Class 6-8",
+    "class_name": "Class 6",
+    "name": "History & Civics"
+  },
+
+  {
+    "syllabus_name": "ICSE Class 9",
+    "class_name": "Class 9",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "ICSE Class 9",
+    "class_name": "Class 9",
+    "name": "Physics"
+  },
+  {
+    "syllabus_name": "ICSE Class 9",
+    "class_name": "Class 9",
+    "name": "Chemistry"
+  },
+  {
+    "syllabus_name": "ICSE Class 9",
+    "class_name": "Class 9",
+    "name": "Biology"
+  },
+  {
+    "syllabus_name": "ICSE Class 9",
+    "class_name": "Class 9",
+    "name": "History & Civics"
+  },
+
+  {
+    "syllabus_name": "ICSE Class 10",
+    "class_name": "Class 10",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "ICSE Class 10",
+    "class_name": "Class 10",
+    "name": "Physics"
+  },
+  {
+    "syllabus_name": "ICSE Class 10",
+    "class_name": "Class 10",
+    "name": "Chemistry"
+  },
+  {
+    "syllabus_name": "ICSE Class 10",
+    "class_name": "Class 10",
+    "name": "Biology"
+  },
+  {
+    "syllabus_name": "ICSE Class 10",
+    "class_name": "Class 10",
+    "name": "History & Civics"
+  },
+
+  {
+    "syllabus_name": "Karnataka Class 1-5",
+    "class_name": "Class 1",
+    "name": "Kannada"
+  },
+  {
+    "syllabus_name": "Karnataka Class 1-5",
+    "class_name": "Class 1",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "Karnataka Class 1-5",
+    "class_name": "Class 1",
+    "name": "Environmental Studies"
+  },
+
+  {
+    "syllabus_name": "Karnataka Class 6-8",
+    "class_name": "Class 6",
+    "name": "Kannada"
+  },
+  {
+    "syllabus_name": "Karnataka Class 6-8",
+    "class_name": "Class 6",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "Karnataka Class 6-8",
+    "class_name": "Class 6",
+    "name": "Science"
+  },
+
+  {
+    "syllabus_name": "Karnataka Class 9",
+    "class_name": "Class 9",
+    "name": "Kannada"
+  },
+  {
+    "syllabus_name": "Karnataka Class 9",
+    "class_name": "Class 9",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "Karnataka Class 9",
+    "class_name": "Class 9",
+    "name": "Social Science"
+  },
+  {
+    "syllabus_name": "Karnataka Class 9",
+    "class_name": "Class 9",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Karnataka SSLC",
+    "class_name": "Class 10",
+    "name": "Kannada"
+  },
+  {
+    "syllabus_name": "Karnataka SSLC",
+    "class_name": "Class 10",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "Karnataka SSLC",
+    "class_name": "Class 10",
+    "name": "Social Science"
+  },
+  {
+    "syllabus_name": "Karnataka SSLC",
+    "class_name": "Class 10",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Tamil Nadu Class 1-5",
+    "class_name": "Class 1",
+    "name": "Tamil"
+  },
+  {
+    "syllabus_name": "Tamil Nadu Class 1-5",
+    "class_name": "Class 1",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Tamil Nadu Class 6-8",
+    "class_name": "Class 6",
+    "name": "Tamil"
+  },
+  {
+    "syllabus_name": "Tamil Nadu Class 6-8",
+    "class_name": "Class 6",
+    "name": "Science"
+  },
+
+  {
+    "syllabus_name": "Tamil Nadu Class 9",
+    "class_name": "Class 9",
+    "name": "Tamil"
+  },
+  {
+    "syllabus_name": "Tamil Nadu Class 9",
+    "class_name": "Class 9",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Tamil Nadu SSLC",
+    "class_name": "Class 10",
+    "name": "Tamil"
+  },
+  {
+    "syllabus_name": "Tamil Nadu SSLC",
+    "class_name": "Class 10",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "Tamil Nadu SSLC",
+    "class_name": "Class 10",
+    "name": "Social Science"
+  },
+  {
+    "syllabus_name": "Tamil Nadu SSLC",
+    "class_name": "Class 10",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Maharashtra Class 1-5",
+    "class_name": "Class 1",
+    "name": "Marathi"
+  },
+  {
+    "syllabus_name": "Maharashtra Class 1-5",
+    "class_name": "Class 1",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Maharashtra Class 6-8",
+    "class_name": "Class 6",
+    "name": "Marathi"
+  },
+  {
+    "syllabus_name": "Maharashtra Class 6-8",
+    "class_name": "Class 6",
+    "name": "Science"
+  },
+
+  {
+    "syllabus_name": "Maharashtra Class 9",
+    "class_name": "Class 9",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "Maharashtra Class 9",
+    "class_name": "Class 9",
+    "name": "History & Civics"
+  },
+
+  {
+    "syllabus_name": "Maharashtra SSC",
+    "class_name": "Class 10",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "Maharashtra SSC",
+    "class_name": "Class 10",
+    "name": "Mathematics"
+  },
+  {
+    "syllabus_name": "Maharashtra SSC",
+    "class_name": "Class 10",
+    "name": "History & Civics"
+  },
+
+  {
+    "syllabus_name": "Kerala Class 1-5",
+    "class_name": "Class 1",
+    "name": "Malayalam"
+  },
+  {
+    "syllabus_name": "Kerala Class 1-5",
+    "class_name": "Class 1",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Kerala Class 6-8",
+    "class_name": "Class 6",
+    "name": "Malayalam"
+  },
+  {
+    "syllabus_name": "Kerala Class 6-8",
+    "class_name": "Class 6",
+    "name": "Science"
+  },
+
+  {
+    "syllabus_name": "Kerala Class 9",
+    "class_name": "Class 9",
+    "name": "Malayalam"
+  },
+  {
+    "syllabus_name": "Kerala Class 9",
+    "class_name": "Class 9",
+    "name": "Mathematics"
+  },
+
+  {
+    "syllabus_name": "Kerala SSLC",
+    "class_name": "Class 10",
+    "name": "Malayalam"
+  },
+  {
+    "syllabus_name": "Kerala SSLC",
+    "class_name": "Class 10",
+    "name": "Science"
+  },
+  {
+    "syllabus_name": "Kerala SSLC",
+    "class_name": "Class 10",
+    "name": "Social Science"
+  },
+  {
+    "syllabus_name": "Kerala SSLC",
+    "class_name": "Class 10",
+    "name": "Mathematics"
+  }
+]

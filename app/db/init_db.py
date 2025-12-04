@@ -1,0 +1,14 @@
+from app.db.session import SessionLocal, engine
+from app.db.base import Base
+
+
+def init_db():
+    """
+    Initialize database tables.
+    """
+    Base.metadata.create_all(bind=engine)
+
+
+if __name__ == "__main__":
+    init_db()
+
