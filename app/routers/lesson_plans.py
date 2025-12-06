@@ -18,7 +18,7 @@ router = APIRouter(prefix="/lesson-plans", tags=["lesson-plans"])
 
 
 @router.post("/generate", response_model=LessonPlanGenerateResponse)
-def generate_lesson_plan(request: LessonPlanGenerateRequest, db: Session = Depends(get_db)):
+async def generate_lesson_plan(request: LessonPlanGenerateRequest, db: Session = Depends(get_db)):
     """
     Placeholder endpoint for AI lesson plan generation.
     This endpoint should:

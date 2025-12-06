@@ -9,7 +9,7 @@ router = APIRouter(prefix="/sessions", tags=["sessions"])
 
 
 @router.post("", response_model=SessionResponse, status_code=201)
-def create_session(session: SessionCreate, db: Session = Depends(get_db)):
+async def create_session(session: SessionCreate, db: Session = Depends(get_db)):
     # Validate chapter exists
     chapter = chapter_service.get_chapter_by_id(db, session.chapter_id)
     if not chapter:
@@ -19,12 +19,12 @@ def create_session(session: SessionCreate, db: Session = Depends(get_db)):
 
 
 @router.get("/chapters/{chapter_id}", response_model=List[SessionResponse])
-def get_sessions_by_chapter(chapter_id: int, db: Session = Depends(get_db)):
+async def get_sessions_by_chapter(chapter_id: int, db: Session = Depends(get_db)):
     return session_service.get_sessions_by_chapter(db, chapter_id)
 
 
 @router.put("/{session_id}", response_model=SessionResponse)
-def update_session(session_id: int, session_update: SessionUpdate, db: Session = Depends(get_db)):
+async def update_session(session_id: int, session_update: SessionUpdate, db: Session = Depends(get_db)):
     if session_update.chapter_id:
         chapter = chapter_service.get_chapter_by_id(db, session_update.chapter_id)
         if not chapter:
@@ -37,7 +37,7 @@ def update_session(session_id: int, session_update: SessionUpdate, db: Session =
 
 
 @router.delete("/{session_id}", status_code=204)
-def delete_session(session_id: int, db: Session = Depends(get_db)):
+async def delete_session(session_id: int, db: Session = Depends(get_db)):
     success = session_service.delete_session(db, session_id)
     if not success:
         raise HTTPException(status_code=404, detail="Session not found")

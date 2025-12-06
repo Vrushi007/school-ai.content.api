@@ -9,7 +9,7 @@ router = APIRouter(prefix="/syllabus", tags=["syllabus"])
 
 
 @router.post("", response_model=SyllabusResponse, status_code=201)
-def create_syllabus(syllabus: SyllabusCreate, db: Session = Depends(get_db)):
+async def create_syllabus(syllabus: SyllabusCreate, db: Session = Depends(get_db)):
     # Validate board exists
     board = board_service.get_board_by_id(db, syllabus.board_id)
     if not board:
@@ -41,12 +41,12 @@ def create_syllabus(syllabus: SyllabusCreate, db: Session = Depends(get_db)):
 
 
 @router.get("", response_model=List[SyllabusResponse])
-def get_syllabi(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+async def get_syllabi(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return syllabus_service.get_syllabi(db, skip=skip, limit=limit)
 
 
 @router.get("/{syllabus_id}", response_model=SyllabusResponse)
-def get_syllabus(syllabus_id: int, db: Session = Depends(get_db)):
+async def get_syllabus(syllabus_id: int, db: Session = Depends(get_db)):
     syllabus = syllabus_service.get_syllabus_by_id(db, syllabus_id)
     if not syllabus:
         raise HTTPException(status_code=404, detail="Syllabus not found")
@@ -54,7 +54,7 @@ def get_syllabus(syllabus_id: int, db: Session = Depends(get_db)):
 
 
 @router.put("/{syllabus_id}", response_model=SyllabusResponse)
-def update_syllabus(syllabus_id: int, syllabus_update: SyllabusUpdate, db: Session = Depends(get_db)):
+async def update_syllabus(syllabus_id: int, syllabus_update: SyllabusUpdate, db: Session = Depends(get_db)):
     # Get existing syllabus
     existing_syllabus = syllabus_service.get_syllabus_by_id(db, syllabus_id)
     if not existing_syllabus:
@@ -105,7 +105,7 @@ def update_syllabus(syllabus_id: int, syllabus_update: SyllabusUpdate, db: Sessi
 
 
 @router.delete("/{syllabus_id}", status_code=204)
-def delete_syllabus(syllabus_id: int, db: Session = Depends(get_db)):
+async def delete_syllabus(syllabus_id: int, db: Session = Depends(get_db)):
     success = syllabus_service.delete_syllabus(db, syllabus_id)
     if not success:
         raise HTTPException(status_code=404, detail="Syllabus not found")

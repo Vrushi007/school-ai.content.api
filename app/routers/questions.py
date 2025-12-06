@@ -9,7 +9,7 @@ router = APIRouter(prefix="/questions", tags=["questions"])
 
 
 @router.post("", response_model=QuestionResponse, status_code=201)
-def create_question(question: QuestionCreate, db: Session = Depends(get_db)):
+async def create_question(question: QuestionCreate, db: Session = Depends(get_db)):
     # Validate chapter exists
     chapter = chapter_service.get_chapter_by_id(db, question.chapter_id)
     if not chapter:
@@ -19,7 +19,7 @@ def create_question(question: QuestionCreate, db: Session = Depends(get_db)):
 
 
 @router.post("/bulk", response_model=List[QuestionResponse], status_code=201)
-def create_questions_bulk(bulk_data: QuestionBulkCreate, db: Session = Depends(get_db)):
+async def create_questions_bulk(bulk_data: QuestionBulkCreate, db: Session = Depends(get_db)):
     # Validate chapter exists
     chapter = chapter_service.get_chapter_by_id(db, bulk_data.chapter_id)
     if not chapter:
@@ -29,12 +29,12 @@ def create_questions_bulk(bulk_data: QuestionBulkCreate, db: Session = Depends(g
 
 
 @router.get("/chapters/{chapter_id}", response_model=List[QuestionResponse])
-def get_questions_by_chapter(chapter_id: int, db: Session = Depends(get_db)):
+async def get_questions_by_chapter(chapter_id: int, db: Session = Depends(get_db)):
     return question_service.get_questions_by_chapter(db, chapter_id)
 
 
 @router.get("/{question_id}", response_model=QuestionResponse)
-def get_question(question_id: int, db: Session = Depends(get_db)):
+async def get_question(question_id: int, db: Session = Depends(get_db)):
     question = question_service.get_question_by_id(db, question_id)
     if not question:
         raise HTTPException(status_code=404, detail="Question not found")
@@ -42,7 +42,7 @@ def get_question(question_id: int, db: Session = Depends(get_db)):
 
 
 @router.put("/{question_id}", response_model=QuestionResponse)
-def update_question(question_id: int, question_update: QuestionUpdate, db: Session = Depends(get_db)):
+async def update_question(question_id: int, question_update: QuestionUpdate, db: Session = Depends(get_db)):
     if question_update.chapter_id:
         chapter = chapter_service.get_chapter_by_id(db, question_update.chapter_id)
         if not chapter:
@@ -55,7 +55,7 @@ def update_question(question_id: int, question_update: QuestionUpdate, db: Sessi
 
 
 @router.delete("/{question_id}", status_code=204)
-def delete_question(question_id: int, db: Session = Depends(get_db)):
+async def delete_question(question_id: int, db: Session = Depends(get_db)):
     success = question_service.delete_question(db, question_id)
     if not success:
         raise HTTPException(status_code=404, detail="Question not found")

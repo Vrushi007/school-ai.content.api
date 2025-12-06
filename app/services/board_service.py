@@ -1,5 +1,6 @@
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 from app.models.board import Board
+from app.models.state import State
 from app.schemas.board import BoardCreate, BoardUpdate
 from typing import List
 
@@ -13,11 +14,29 @@ def create_board(db: Session, board: BoardCreate) -> Board:
 
 
 def get_boards(db: Session, skip: int = 0, limit: int = 100) -> List[Board]:
-    return db.query(Board).offset(skip).limit(limit).all()
+    query = db.query(Board).outerjoin(State).options(joinedload(Board.state)).offset(skip).limit(limit)
+    boards = query.all()
+    
+    # Add state_name to each board object
+    for board in boards:
+        if board.state:
+            board.state_name = board.state.name
+        else:
+            board.state_name = None
+    
+    return boards
 
 
 def get_board_by_id(db: Session, board_id: int) -> Board | None:
-    return db.query(Board).filter(Board.id == board_id).first()
+    board = db.query(Board).options(joinedload(Board.state)).filter(Board.id == board_id).first()
+    
+    if board:
+        if board.state:
+            board.state_name = board.state.name
+        else:
+            board.state_name = None
+    
+    return board
 
 
 def get_board_by_name(db: Session, name: str) -> Board | None:
