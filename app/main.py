@@ -9,9 +9,6 @@ from app.routers import (
     subjects,
     chapters,
     key_points,
-    sessions,
-    session_key_points,
-    session_details,
     questions,
     lesson_plans
 )
@@ -53,9 +50,6 @@ app.include_router(classes.router)
 app.include_router(subjects.router)
 app.include_router(chapters.router)
 app.include_router(key_points.router)
-app.include_router(sessions.router)
-app.include_router(session_key_points.router)
-app.include_router(session_details.router)
 app.include_router(questions.router)
 app.include_router(lesson_plans.router)
 

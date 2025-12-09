@@ -9,9 +9,7 @@ from app.services import (
     class_service,
     subject_service,
     chapter_service,
-    key_point_service,
-    session_service,
-    session_key_point_service
+    key_point_service
 )
 
 router = APIRouter(prefix="/lesson-plans", tags=["lesson-plans"])
