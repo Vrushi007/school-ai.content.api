@@ -16,6 +16,5 @@ class Chapter(Base):
     # Relationships
     subject = relationship("Subject", back_populates="chapters")
     key_points = relationship("KeyPoint", back_populates="chapter", cascade="all, delete-orphan")
-    sessions = relationship("Session", back_populates="chapter", cascade="all, delete-orphan")
     questions = relationship("Question", back_populates="chapter", cascade="all, delete-orphan")
 

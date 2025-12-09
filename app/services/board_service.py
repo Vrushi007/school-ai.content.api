@@ -14,7 +14,14 @@ def create_board(db: Session, board: BoardCreate) -> Board:
 
 
 def get_boards(db: Session, skip: int = 0, limit: int = 100) -> List[Board]:
-    query = db.query(Board).outerjoin(State).options(joinedload(Board.state)).offset(skip).limit(limit)
+    query = (
+        db.query(Board)
+        .filter(Board.is_active == True)
+        .outerjoin(State)
+        .options(joinedload(Board.state))
+        .offset(skip)
+        .limit(limit)
+    )
     boards = query.all()
     
     # Add state_name to each board object

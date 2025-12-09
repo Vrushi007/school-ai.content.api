@@ -14,5 +14,4 @@ class KeyPoint(Base):
 
     # Relationships
     chapter = relationship("Chapter", back_populates="key_points")
-    session_key_points = relationship("SessionKeyPoint", back_populates="key_point", cascade="all, delete-orphan")
 
