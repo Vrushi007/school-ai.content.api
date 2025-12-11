@@ -4,7 +4,6 @@ import os
 from app.routers import (
     boards,
     states,
-    syllabus,
     classes,
     subjects,
     chapters,
@@ -45,7 +44,6 @@ app.add_middleware(
 # Include routers
 app.include_router(boards.router)
 app.include_router(states.router)
-app.include_router(syllabus.router)
 app.include_router(classes.router)
 app.include_router(subjects.router)
 app.include_router(chapters.router)

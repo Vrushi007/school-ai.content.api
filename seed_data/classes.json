@@ -1,1182 +1,1182 @@
 [
   {
-    "syllabus_name": "CBSE Class 1-5",
     "name": "Class 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 1-5",
     "name": "Class 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 1-5",
     "name": "Class 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 1-5",
     "name": "Class 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 1-5",
     "name": "Class 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 6-8",
     "name": "Class 6",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 6-8",
     "name": "Class 7",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 6-8",
     "name": "Class 8",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 9",
     "name": "Class 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 11",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "CBSE Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "CBSE"
   },
   {
-    "syllabus_name": "ICSE Class 1-5",
     "name": "Class 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 1-5",
     "name": "Class 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 1-5",
     "name": "Class 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 1-5",
     "name": "Class 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 1-5",
     "name": "Class 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 6-8",
     "name": "Class 6",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 6-8",
     "name": "Class 7",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 6-8",
     "name": "Class 8",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 9",
     "name": "Class 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ICSE Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ISC Class 11",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "ISC Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "ICSE"
   },
   {
-    "syllabus_name": "IB Primary Years Programme (PYP)",
     "name": "PYP Year 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Primary Years Programme (PYP)",
     "name": "PYP Year 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Primary Years Programme (PYP)",
     "name": "PYP Year 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Primary Years Programme (PYP)",
     "name": "PYP Year 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Primary Years Programme (PYP)",
     "name": "PYP Year 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Middle Years Programme (MYP)",
     "name": "MYP Year 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Middle Years Programme (MYP)",
     "name": "MYP Year 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Middle Years Programme (MYP)",
     "name": "MYP Year 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Middle Years Programme (MYP)",
     "name": "MYP Year 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Middle Years Programme (MYP)",
     "name": "MYP Year 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Diploma Programme (DP)",
     "name": "DP Year 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IB Diploma Programme (DP)",
     "name": "DP Year 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IGCSE Year 9-10",
     "name": "Year 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "IGCSE"
   },
   {
-    "syllabus_name": "IGCSE Year 9-10",
     "name": "Year 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "IGCSE"
   },
   {
-    "syllabus_name": "IGCSE A-Level",
     "name": "AS Level",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "IGCSE"
   },
   {
-    "syllabus_name": "IGCSE A-Level",
     "name": "A2 Level",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "IGCSE"
   },
   {
-    "syllabus_name": "NIOS Secondary (Class 10)",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "NIOS"
   },
   {
-    "syllabus_name": "NIOS Senior Secondary (Class 12)",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "NIOS"
   },
   {
-    "syllabus_name": "Karnataka Class 1-5",
     "name": "Class 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 1-5",
     "name": "Class 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 1-5",
     "name": "Class 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 1-5",
     "name": "Class 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 1-5",
     "name": "Class 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 6-8",
     "name": "Class 6",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 6-8",
     "name": "Class 7",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 6-8",
     "name": "Class 8",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka Class 9",
     "name": "Class 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka SSLC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka 1st PUC",
     "name": "1st PUC",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Karnataka 2nd PUC",
     "name": "2nd PUC",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Karnataka State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 1-5",
     "name": "Class 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 1-5",
     "name": "Class 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 1-5",
     "name": "Class 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 1-5",
     "name": "Class 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 1-5",
     "name": "Class 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 6-8",
     "name": "Class 6",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 6-8",
     "name": "Class 7",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 6-8",
     "name": "Class 8",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu Class 9",
     "name": "Class 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu SSLC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu HSC",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Tamil Nadu HSC",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Tamil Nadu State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 1-5",
     "name": "Class 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 1-5",
     "name": "Class 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 1-5",
     "name": "Class 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 1-5",
     "name": "Class 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 1-5",
     "name": "Class 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 6-8",
     "name": "Class 6",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 6-8",
     "name": "Class 7",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 6-8",
     "name": "Class 8",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra Class 9",
     "name": "Class 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra SSC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra HSC",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Maharashtra HSC",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Maharashtra State Board"
   },
   {
-    "syllabus_name": "Kerala Class 1-5",
     "name": "Class 1",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 1-5",
     "name": "Class 2",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 1-5",
     "name": "Class 3",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 1-5",
     "name": "Class 4",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 1-5",
     "name": "Class 5",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 6-8",
     "name": "Class 6",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 6-8",
     "name": "Class 7",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 6-8",
     "name": "Class 8",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Class 9",
     "name": "Class 9",
-    "display_order": 9
+    "display_order": 9,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala SSLC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Plus Two",
     "name": "Plus One",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Kerala Plus Two",
     "name": "Plus Two",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Kerala State Board"
   },
   {
-    "syllabus_name": "Andhra Pradesh SSC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "Andhra Pradesh Intermediate",
     "name": "1st Year Intermediate",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Andhra Pradesh State Board"
   },
   {
-    "syllabus_name": "Andhra Pradesh Intermediate",
     "name": "2nd Year Intermediate",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Andhra Pradesh State Board"
   },
   {
-    "syllabus_name": "Telangana SSC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "Telangana Intermediate",
     "name": "1st Year Intermediate",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Telangana State Board"
   },
   {
-    "syllabus_name": "Telangana Intermediate",
     "name": "2nd Year Intermediate",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Telangana State Board"
   },
   {
-    "syllabus_name": "Gujarat Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Gujarat State Board"
   },
   {
-    "syllabus_name": "Gujarat Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Gujarat State Board"
   },
   {
-    "syllabus_name": "Rajasthan Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Rajasthan State Board"
   },
   {
-    "syllabus_name": "Rajasthan Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Rajasthan State Board"
   },
   {
-    "syllabus_name": "West Bengal Madhyamik",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "West Bengal State Board"
   },
   {
-    "syllabus_name": "West Bengal Higher Secondary",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "West Bengal State Board"
   },
   {
-    "syllabus_name": "West Bengal Higher Secondary",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "West Bengal State Board"
   },
   {
-    "syllabus_name": "Uttar Pradesh High School",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Uttar Pradesh State Board"
   },
   {
-    "syllabus_name": "Uttar Pradesh Intermediate",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Uttar Pradesh State Board"
   },
   {
-    "syllabus_name": "Uttar Pradesh Intermediate",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Uttar Pradesh State Board"
   },
   {
-    "syllabus_name": "Bihar Matric",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Bihar State Board"
   },
   {
-    "syllabus_name": "Bihar Intermediate",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Bihar State Board"
   },
   {
-    "syllabus_name": "Bihar Intermediate",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Bihar State Board"
   },
   {
-    "syllabus_name": "Madhya Pradesh Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Madhya Pradesh State Board"
   },
   {
-    "syllabus_name": "Madhya Pradesh Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Madhya Pradesh State Board"
   },
   {
-    "syllabus_name": "Punjab Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Punjab State Board"
   },
   {
-    "syllabus_name": "Punjab Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Punjab State Board"
   },
   {
-    "syllabus_name": "Haryana Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Haryana State Board"
   },
   {
-    "syllabus_name": "Haryana Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Haryana State Board"
   },
   {
-    "syllabus_name": "Odisha HSC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Odisha State Board"
   },
   {
-    "syllabus_name": "Odisha CHSE",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Odisha State Board"
   },
   {
-    "syllabus_name": "Odisha CHSE",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Odisha State Board"
   },
   {
-    "syllabus_name": "Assam HSLC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Assam State Board"
   },
   {
-    "syllabus_name": "Assam AHSEC",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Assam State Board"
   },
   {
-    "syllabus_name": "Assam AHSEC",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Assam State Board"
   },
   {
-    "syllabus_name": "Jharkhand Matric",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Jharkhand State Board"
   },
   {
-    "syllabus_name": "Jharkhand Intermediate",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "Jharkhand State Board"
   },
   {
-    "syllabus_name": "Jharkhand Intermediate",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Jharkhand State Board"
   },
   {
-    "syllabus_name": "Chhattisgarh Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Chhattisgarh State Board"
   },
   {
-    "syllabus_name": "Chhattisgarh Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Chhattisgarh State Board"
   },
   {
-    "syllabus_name": "Goa SSC",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "Goa HSSC",
     "name": "Class 11",
-    "display_order": 11
+    "display_order": 11,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "Goa HSSC",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "Himachal Pradesh Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Himachal Pradesh State Board"
   },
   {
-    "syllabus_name": "Himachal Pradesh Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Himachal Pradesh State Board"
   },
   {
-    "syllabus_name": "Uttarakhand Class 10",
     "name": "Class 10",
-    "display_order": 10
+    "display_order": 10,
+    "board_name": "Uttarakhand State Board"
   },
   {
-    "syllabus_name": "Uttarakhand Class 12",
     "name": "Class 12",
-    "display_order": 12
+    "display_order": 12,
+    "board_name": "Uttarakhand State Board"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "1st Semester",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "2nd Semester",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "3rd Semester",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "4th Semester",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "5th Semester",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "6th Semester",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "7th Semester",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE CSE CBCS Scheme 2021",
     "name": "8th Semester",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "1st Semester",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "2nd Semester",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "3rd Semester",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "4th Semester",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "5th Semester",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "6th Semester",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "7th Semester",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ECE CBCS Scheme 2021",
     "name": "8th Semester",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "1st Semester",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "2nd Semester",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "3rd Semester",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "4th Semester",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "5th Semester",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "6th Semester",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "7th Semester",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE EEE CBCS Scheme 2021",
     "name": "8th Semester",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "1st Semester",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "2nd Semester",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "3rd Semester",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "4th Semester",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "5th Semester",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "6th Semester",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "7th Semester",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE ME CBCS Scheme 2021",
     "name": "8th Semester",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "1st Semester",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "2nd Semester",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "3rd Semester",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "4th Semester",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "5th Semester",
-    "display_order": 5
+    "display_order": 5,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "6th Semester",
-    "display_order": 6
+    "display_order": 6,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "7th Semester",
-    "display_order": 7
+    "display_order": 7,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "VTU BE Civil CBCS Scheme 2021",
     "name": "8th Semester",
-    "display_order": 8
+    "display_order": 8,
+    "board_name": "VTU"
   },
   {
-    "syllabus_name": "BU BSc",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BSc",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BSc",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BCom",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BCom",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BCom",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BA",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BA",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "BU BA",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "BU"
   },
   {
-    "syllabus_name": "Mumbai University BSc",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "MU"
   },
   {
-    "syllabus_name": "Mumbai University BSc",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "MU"
   },
   {
-    "syllabus_name": "Mumbai University BSc",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "MU"
   },
   {
-    "syllabus_name": "Mumbai University BCom",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "MU"
   },
   {
-    "syllabus_name": "Mumbai University BCom",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "MU"
   },
   {
-    "syllabus_name": "Mumbai University BCom",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "MU"
   },
   {
-    "syllabus_name": "JNTU B.Tech CSE",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech CSE",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech CSE",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech CSE",
     "name": "4th Year",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech ECE",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech ECE",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech ECE",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "JNTU B.Tech ECE",
     "name": "4th Year",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "JNTU"
   },
   {
-    "syllabus_name": "Anna University B.E. CSE",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. CSE",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. CSE",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. CSE",
     "name": "4th Year",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. ECE",
     "name": "1st Year",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. ECE",
     "name": "2nd Year",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. ECE",
     "name": "3rd Year",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "Anna University B.E. ECE",
     "name": "4th Year",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "Anna University"
   },
   {
-    "syllabus_name": "IIT JEE Advanced",
     "name": "JEE Advanced",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "IIT"
   },
   {
-    "syllabus_name": "JEE Main",
     "name": "JEE Main",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "JEE"
   },
   {
-    "syllabus_name": "JEE Advanced",
     "name": "JEE Advanced",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "JEE"
   },
   {
-    "syllabus_name": "NEET UG",
     "name": "NEET UG",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "NEET"
   },
   {
-    "syllabus_name": "NEET PG",
     "name": "NEET PG",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "NEET"
   },
   {
-    "syllabus_name": "UPSC Civil Services Examination",
     "name": "Preliminary Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Civil Services Examination",
     "name": "Mains Examination",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Civil Services Examination",
     "name": "Personality Test (Interview)",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Engineering Services",
     "name": "Preliminary Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Engineering Services",
     "name": "Mains Examination",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Engineering Services",
     "name": "Personality Test",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Combined Defence Services",
     "name": "Written Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "UPSC Combined Defence Services",
     "name": "SSB Interview",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "UPSC"
   },
   {
-    "syllabus_name": "SSC CGL",
     "name": "Tier I",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC CGL",
     "name": "Tier II",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC CGL",
     "name": "Tier III",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC CGL",
     "name": "Tier IV",
-    "display_order": 4
+    "display_order": 4,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC CHSL",
     "name": "Tier I",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC CHSL",
     "name": "Tier II",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC CHSL",
     "name": "Tier III",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC MTS",
     "name": "Paper I",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "SSC MTS",
     "name": "Paper II",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "SSC"
   },
   {
-    "syllabus_name": "IBPS PO",
     "name": "Preliminary Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IBPS PO",
     "name": "Mains Examination",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IBPS PO",
     "name": "Interview",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IBPS Clerk",
     "name": "Preliminary Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "IBPS Clerk",
     "name": "Mains Examination",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "IB"
   },
   {
-    "syllabus_name": "SBI PO",
     "name": "Preliminary Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Banking Exams"
   },
   {
-    "syllabus_name": "SBI PO",
     "name": "Mains Examination",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Banking Exams"
   },
   {
-    "syllabus_name": "SBI PO",
     "name": "Group Exercise & Interview",
-    "display_order": 3
+    "display_order": 3,
+    "board_name": "Banking Exams"
   },
   {
-    "syllabus_name": "SBI Clerk",
     "name": "Preliminary Examination",
-    "display_order": 1
+    "display_order": 1,
+    "board_name": "Banking Exams"
   },
   {
-    "syllabus_name": "SBI Clerk",
     "name": "Mains Examination",
-    "display_order": 2
+    "display_order": 2,
+    "board_name": "Banking Exams"
   }
 ]

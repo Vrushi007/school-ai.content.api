@@ -12,6 +12,7 @@ class Settings(BaseSettings):
         "DATABASE_URL",
         "postgresql://postgres:password@postgres:5432/content_db"
     )
+    ai_service_url: str = os.getenv("AI_SERVICE_URL", "http://localhost:8001")
 
     class Config:
         env_file = ".env"
@@ -19,6 +20,7 @@ class Settings(BaseSettings):
 
 settings = Settings()
 DATABASE_URL = settings.database_url
+AI_SERVICE_URL = settings.ai_service_url
 
 engine = create_engine(
     DATABASE_URL,

@@ -17,7 +17,7 @@ project_root = Path(__file__).resolve().parent
 sys.path.insert(0, str(project_root))
 
 from app.db.session import SessionLocal
-from app.models import Board, State, Syllabus, Class, Subject, Chapter
+from app.models import Board, State, Class, Subject, Chapter
 from app.utils.db_utils import get_or_create, get_or_fail
 from app.utils.json_loader import load_json
 
@@ -68,81 +68,24 @@ def seed_boards(db):
     print(f"✅ Seeded {len(boards_data)} boards\n")
 
 
-def seed_syllabus(db):
-    """Seed syllabus from syllabus.json"""
-    print("📖 Seeding syllabus...")
-    syllabus_data = load_json("syllabus.json")
-    
-    for item in syllabus_data:
-        # Find board by name
-        board = get_or_fail(
-            db,
-            Board,
-            {"name": item["board_name"]},
-            f"Board '{item['board_name']}' not found for syllabus '{item['name']}'"
-        )
-        
-        # Validate board-state relationship
-        if board.state_id is not None:
-            # Board is state-specific
-            if item.get("state_code") is None:
-                raise ValueError(
-                    f"Syllabus '{item['name']}' must have state_code for state-specific board '{board.name}'"
-                )
-            state = get_or_fail(
-                db,
-                State,
-                {"code": item["state_code"]},
-                f"State with code '{item['state_code']}' not found for syllabus '{item['name']}'"
-            )
-            if board.state_id != state.id:
-                raise ValueError(
-                    f"Syllabus '{item['name']}' state_code '{item['state_code']}' doesn't match board's state"
-                )
-            state_id = state.id
-        else:
-            # Board is national
-            if item.get("state_code") is not None:
-                raise ValueError(
-                    f"Syllabus '{item['name']}' cannot have state_code for national board '{board.name}'"
-                )
-            state_id = None
-        
-        syllabus = get_or_create(
-            db,
-            Syllabus,
-            {"name": item["name"], "board_id": board.id},
-            {
-                "state_id": state_id,
-                "academic_year": item.get("academic_year")
-            }
-        )
-        print(f"  ✓ {syllabus.name} (Board: {board.name})")
-    
-    print(f"✅ Seeded {len(syllabus_data)} syllabus entries\n")
-
-
 def seed_classes(db):
     """Seed classes from classes.json"""
     print("🎓 Seeding classes...")
     classes_data = load_json("classes.json")
     
     for item in classes_data:
-        # Find syllabus by name
-        syllabus = get_or_fail(
-            db,
-            Syllabus,
-            {"name": item["syllabus_name"]},
-            f"Syllabus '{item['syllabus_name']}' not found for class '{item['name']}'"
-        )
-        
+        board_name = item.get("board_name")
+        board = db.query(Board).filter(Board.name == board_name).first()
+        if not board:
+            raise ValueError(f"Board '{board_name}' not found for class '{item['name']}'")
+
         class_obj = get_or_create(
             db,
             Class,
-            {"name": item["name"], "syllabus_id": syllabus.id},
+            {"name": item["name"], "board_id": board.id},
             {"display_order": item.get("display_order", 0)}
         )
-        print(f"  ✓ {class_obj.name} (Syllabus: {syllabus.name})")
+        print(f"  ✓ {class_obj.name} (Board: {board.name})")
     
     print(f"✅ Seeded {len(classes_data)} classes\n")
 
@@ -150,7 +93,6 @@ def seed_classes(db):
 def seed_subjects(db):
     """Seed subjects from subjects.json  
        Requires each entry to contain:
-       - syllabus_name
        - class_name
        - name (subject name)
     """
@@ -158,36 +100,33 @@ def seed_subjects(db):
     subjects_data = load_json("subjects.json")
 
     for item in subjects_data:
-        syllabus_name = item.get("syllabus_name")
         class_name = item.get("class_name")
         subject_name = item.get("name")
+        board_name = item.get("board_name")
 
-        if not syllabus_name or not class_name or not subject_name:
+        if not class_name or not subject_name or not board_name:
             raise ValueError(
                 f"Invalid subject entry: {item}. "
-                f"Each subject requires 'syllabus_name', 'class_name', and 'name'."
+                f"Each subject requires 'class_name', 'name', and 'board_name'."
             )
-
-        # 1️⃣ Get syllabus (must exist)
-        syllabus = get_or_fail(
+        
+        # Get board (must exist)
+        board = get_or_fail(
             db,
-            Syllabus,
-            {"name": syllabus_name},
-            f"Syllabus '{syllabus_name}' not found for subject '{subject_name}'"
+            Board,
+            {"name": board_name},
+            f"Board '{board_name}' not found for subject '{subject_name}'"
         )
 
-        # 2️⃣ Get class (must exist AND match syllabus)
+        # Get class (must exist)
         class_obj = get_or_fail(
             db,
             Class,
-            {"name": class_name, "syllabus_id": syllabus.id},
-            (
-                f"Class '{class_name}' not found under syllabus '{syllabus_name}' "
-                f"for subject '{subject_name}'"
-            )
+            {"name": class_name, "board_id": board.id},
+            f"Class '{class_name}' not found for subject '{subject_name}'"
         )
 
-        # 3️⃣ Insert or fetch subject under this class
+        # Insert or fetch subject under this class
         subject = get_or_create(
             db,
             Subject,
@@ -195,7 +134,7 @@ def seed_subjects(db):
             {}  # no defaults
         )
 
-        print(f"  ✓ {subject.name} (Class: {class_obj.name}, Syllabus: {syllabus.name})")
+        print(f"  ✓ {subject.name} (Class: {class_obj.name})")
 
     print(f"✅ Seeded {len(subjects_data)} subjects\n")
 
@@ -206,25 +145,24 @@ def seed_chapters(db):
     chapters_data = load_json("chapters.json")
 
     for item in chapters_data:
-        syllabus = get_or_fail(
+        board_object = get_or_fail(
             db,
-            Syllabus,
-            {"name": item["syllabus_name"]},
-            f"Syllabus '{item['syllabus_name']}' not found for chapter '{item['title']}'"
+            Board,
+            {"name": item["board_name"]},
+            f"Board '{item['board_name']}' not found for chapter '{item['title']}'"
         )
-
         class_obj = get_or_fail(
             db,
             Class,
-            {"name": item["class_name"], "syllabus_id": syllabus.id},
-            f"Class '{item['class_name']}' not found under syllabus '{item['syllabus_name']}'"
+            {"name": item["class_name"], "board_id": board_object.id},
+            f"Class '{item['class_name']}' not found for chapter '{item['title']}'"
         )
 
         subject = get_or_fail(
             db,
             Subject,
             {"name": item["subject_name"], "class_id": class_obj.id},
-            f"Subject '{item['subject_name']}' not found in class '{class_obj.name}' for syllabus '{syllabus.name}'"
+            f"Subject '{item['subject_name']}' not found in class '{class_obj.name}' for chapter '{item['title']}'"
         )
 
         chapter = get_or_create(
@@ -238,7 +176,7 @@ def seed_chapters(db):
             {"description": item.get("description")}
         )
 
-        print(f"  ✓ {chapter.title} → {subject.name} / {class_obj.name} / {syllabus.name}")
+        print(f"  ✓ {chapter.title} → {subject.name} / {class_obj.name}")
 
     print("✅ Chapters seeded\n")
 
@@ -257,7 +195,6 @@ def main():
         # Seed in order (respecting foreign key dependencies)
         seed_states(db)
         seed_boards(db)
-        seed_syllabus(db)
         seed_classes(db)
         seed_subjects(db)
         seed_chapters(db)

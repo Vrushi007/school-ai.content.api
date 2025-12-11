@@ -1,6 +1,5 @@
 from app.schemas.board import BoardCreate, BoardResponse, BoardUpdate
 from app.schemas.state import StateCreate, StateResponse
-from app.schemas.syllabus import SyllabusCreate, SyllabusResponse, SyllabusUpdate
 from app.schemas.class_model import ClassCreate, ClassResponse, ClassUpdate
 from app.schemas.subject import SubjectCreate, SubjectResponse, SubjectUpdate
 from app.schemas.chapter import ChapterCreate, ChapterResponse, ChapterUpdate
@@ -8,6 +7,8 @@ from app.schemas.key_point import KeyPointCreate, KeyPointResponse, KeyPointUpda
 from app.schemas.question import QuestionCreate, QuestionResponse, QuestionUpdate, QuestionBulkCreate
 from app.schemas.answer import AnswerCreate, AnswerResponse
 from app.schemas.lesson_plan import LessonPlanGenerateRequest, LessonPlanGenerateResponse
+from app.schemas.lesson_plan_input import LessonPlanInputCreate, LessonPlanInputResponse, LessonPlanRequest, LessonPlanResponse
+from app.schemas.lesson_plan_output import LessonPlanOutputCreate, LessonPlanOutputResponse
 
 __all__ = [
     "BoardCreate",
@@ -15,9 +16,6 @@ __all__ = [
     "BoardUpdate",
     "StateCreate",
     "StateResponse",
-    "SyllabusCreate",
-    "SyllabusResponse",
-    "SyllabusUpdate",
     "ClassCreate",
     "ClassResponse",
     "ClassUpdate",
@@ -39,5 +37,11 @@ __all__ = [
     "AnswerResponse",
     "LessonPlanGenerateRequest",
     "LessonPlanGenerateResponse",
+    "LessonPlanRequest",
+    "LessonPlanResponse",
+    "LessonPlanInputCreate",
+    "LessonPlanInputResponse",
+    "LessonPlanOutputCreate",
+    "LessonPlanOutputResponse",
 ]
 

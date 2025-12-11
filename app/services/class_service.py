@@ -12,10 +12,6 @@ def create_class(db: Session, class_data: ClassCreate) -> Class:
     return db_class
 
 
-def get_classes_by_syllabus(db: Session, syllabus_id: int) -> List[Class]:
-    return db.query(Class).filter(Class.syllabus_id == syllabus_id).order_by(Class.display_order).all()
-
-
 def get_class_by_id(db: Session, class_id: int) -> Class | None:
     return db.query(Class).filter(Class.id == class_id).first()
 

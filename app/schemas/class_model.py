@@ -3,20 +3,20 @@ from typing import Optional
 
 
 class ClassCreate(BaseModel):
-    syllabus_id: int
+    board_id: int
     name: str
     display_order: int = 0
 
 
 class ClassUpdate(BaseModel):
-    syllabus_id: Optional[int] = None
+    board_id: Optional[int] = None
     name: Optional[str] = None
     display_order: Optional[int] = None
 
 
 class ClassResponse(BaseModel):
     id: int
-    syllabus_id: int
+    board_id: int
     name: str
     display_order: int
     is_active: bool

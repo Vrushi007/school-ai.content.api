@@ -14,4 +14,5 @@ class Board(Base):
 
     # Relationships
     state = relationship("State", backref="boards")
+    classes = relationship("Class", back_populates="board", cascade="all, delete-orphan")
 

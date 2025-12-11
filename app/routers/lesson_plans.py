@@ -1,60 +1,50 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.db.session import get_db
-from app.schemas.lesson_plan import LessonPlanGenerateRequest, LessonPlanGenerateResponse
-from app.services import (
-    board_service,
-    state_service,
-    syllabus_service,
-    class_service,
-    subject_service,
-    chapter_service,
-    key_point_service
-)
+from app.schemas.lesson_plan_input import LessonPlanRequest, LessonPlanResponse
+from app.services import lesson_plan_service
 
 router = APIRouter(prefix="/lesson-plans", tags=["lesson-plans"])
 
 
-@router.post("/generate", response_model=LessonPlanGenerateResponse)
-async def generate_lesson_plan(request: LessonPlanGenerateRequest, db: Session = Depends(get_db)):
+@router.post("/generate", response_model=LessonPlanResponse)
+async def generate_lesson_plan(request: LessonPlanRequest, db: Session = Depends(get_db)):
     """
-    Placeholder endpoint for AI lesson plan generation.
-    This endpoint should:
-    1. Find the chapter based on the provided hierarchy
-    2. Group key points into sessions (AI logic would go here)
-    3. Create sessions and session-key-point mappings
-    4. Return the generated lesson plan structure
+    Generate a lesson plan or retrieve from cache.
+    
+    This endpoint:
+    1. Generates a hash from the request parameters
+    2. Checks if a cached lesson plan exists
+    3. If cached, returns it with from_cache=True
+    4. If not cached:
+       - Fetches subject, class, and chapter details from the database
+       - Calls the external AI service to generate a lesson plan
+       - Stores the input and output in the database
+       - Returns the generated plan with from_cache=False
+    
+    Request body:
+    - board_id: Board identifier
+    - class_id: Class identifier
+    - subject_id: Subject identifier
+    - chapter_id: Chapter identifier
+    - planned_sessions: Number of sessions to generate
+    
+    Response:
+    - from_cache: Boolean indicating if the result was retrieved from cache
+    - lesson_plan: List of session objects with details
     """
-    # Find board
-    board = board_service.get_board_by_name(db, request.board_name)
-    if not board:
-        raise HTTPException(status_code=404, detail="Board not found")
+    try:
+        from_cache, lesson_plan = await lesson_plan_service.generate_or_retrieve_lesson_plan(db, request)
+        
+        return LessonPlanResponse(
+            from_cache=from_cache,
+            lesson_plan=lesson_plan
+        )
     
-    # Find state if provided
-    state = None
-    if request.state_name:
-        state = state_service.get_state_by_id(db, request.state_name)
-        if not state:
-            raise HTTPException(status_code=404, detail="State not found")
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
     
-    # Find syllabus (simplified - in real implementation, you'd search by name)
-    # For now, we'll assume the client provides the correct hierarchy
-    # In production, you'd implement proper search/filtering
-    
-    # This is a placeholder - actual AI integration would happen here
-    # For now, return a mock response structure
-    
-    sessions = []
-    session_key_point_mapping = {}
-    
-    # Mock response - in production, this would:
-    # 1. Call AI service to group key points
-    # 2. Create sessions in database
-    # 3. Create session-key-point mappings
-    # 4. Return the actual created structure
-    
-    return LessonPlanGenerateResponse(
-        sessions=sessions,
-        session_key_point_mapping=session_key_point_mapping
-    )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate lesson plan: {str(e)}")
+
 
