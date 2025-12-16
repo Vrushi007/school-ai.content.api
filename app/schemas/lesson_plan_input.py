@@ -13,6 +13,7 @@ class LessonPlanRequest(BaseModel):
 class LessonPlanResponse(BaseModel):
     from_cache: bool
     lesson_plan: list
+    success: bool
 
 
 class LessonPlanInputBase(BaseModel):

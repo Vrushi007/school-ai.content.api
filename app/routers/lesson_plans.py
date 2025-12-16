@@ -38,7 +38,8 @@ async def generate_lesson_plan(request: LessonPlanRequest, db: Session = Depends
         
         return LessonPlanResponse(
             from_cache=from_cache,
-            lesson_plan=lesson_plan
+            lesson_plan=lesson_plan,
+            success=True
         )
     
     except ValueError as e:

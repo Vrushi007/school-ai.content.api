@@ -15,6 +15,9 @@ def create_class(db: Session, class_data: ClassCreate) -> Class:
 def get_class_by_id(db: Session, class_id: int) -> Class | None:
     return db.query(Class).filter(Class.id == class_id).first()
 
+def get_classes_by_board(db: Session, board_id: int) -> List[Class]:
+    return db.query(Class).filter(Class.board_id == board_id).all()
+
 
 def update_class(db: Session, class_id: int, class_update: ClassUpdate) -> Class | None:
     db_class = get_class_by_id(db, class_id)

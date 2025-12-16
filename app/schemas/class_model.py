@@ -12,6 +12,7 @@ class ClassUpdate(BaseModel):
     board_id: Optional[int] = None
     name: Optional[str] = None
     display_order: Optional[int] = None
+    is_active: Optional[bool] = None
 
 
 class ClassResponse(BaseModel):

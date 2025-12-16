@@ -28,3 +28,6 @@ async def delete_class(class_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Class not found")
     return None
 
+@router.get("/{board_id}", response_model=List[ClassResponse])
+async def get_classes_by_board(board_id: int, db: Session = Depends(get_db)):
+    return class_service.get_classes_by_board(db, board_id)
