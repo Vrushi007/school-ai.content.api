@@ -1,8 +1,8 @@
 """initial clean schema
 
-Revision ID: 95e7ffdb2dfa
+Revision ID: dfb407655df5
 Revises: 
-Create Date: 2025-12-11 13:25:28.940254
+Create Date: 2025-12-23 19:51:53.675443
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 from sqlalchemy.dialects import postgresql
 
 # revision identifiers, used by Alembic.
-revision = '95e7ffdb2dfa'
+revision = 'dfb407655df5'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -79,15 +79,20 @@ def upgrade() -> None:
     op.create_index(op.f('ix_chapters_is_active'), 'chapters', ['is_active'], unique=False)
     op.create_index(op.f('ix_chapters_subject_id'), 'chapters', ['subject_id'], unique=False)
     op.create_table('key_points',
-    sa.Column('id', sa.Integer(), nullable=False),
-    sa.Column('chapter_id', sa.Integer(), nullable=False),
-    sa.Column('point', sa.Text(), nullable=False),
-    sa.Column('order', sa.Integer(), nullable=False),
-    sa.Column('metadata_json', sa.JSON(), nullable=True),
-    sa.ForeignKeyConstraint(['chapter_id'], ['chapters.id'], ),
+    sa.Column('id', sa.BigInteger(), nullable=False),
+    sa.Column('code', sa.String(length=100), nullable=False),
+    sa.Column('title', sa.Text(), nullable=False),
+    sa.Column('section', sa.Text(), nullable=True),
+    sa.Column('chapter_id', sa.BigInteger(), nullable=False),
+    sa.Column('difficulty_level', sa.Enum('VERY_EASY', 'EASY', 'MEDIUM', 'HARD', 'VERY_HARD', name='difficulty_level_enum'), nullable=False),
+    sa.Column('cognitive_level', sa.Enum('REMEMBER', 'UNDERSTAND', 'APPLY', 'ANALYZE', 'EVALUATE', 'CREATE', name='cognitive_level_enum'), nullable=False),
+    sa.Column('skill_intent', sa.Enum('RECALL', 'EXPLAIN', 'COMPUTE', 'INTERPRET', 'REASON', 'PROBLEM_SOLVING', 'CRITICAL_THINKING', name='skill_intent_enum'), nullable=False),
+    sa.Column('created_at', sa.TIMESTAMP(), server_default='now()', nullable=False),
+    sa.ForeignKeyConstraint(['chapter_id'], ['chapters.id'], ondelete='CASCADE'),
     sa.PrimaryKeyConstraint('id')
     )
     op.create_index(op.f('ix_key_points_chapter_id'), 'key_points', ['chapter_id'], unique=False)
+    op.create_index(op.f('ix_key_points_code'), 'key_points', ['code'], unique=True)
     op.create_index(op.f('ix_key_points_id'), 'key_points', ['id'], unique=False)
     op.create_table('lesson_plan_inputs',
     sa.Column('id', sa.BigInteger(), nullable=False),
@@ -132,6 +137,19 @@ def upgrade() -> None:
     )
     op.create_index(op.f('ix_answers_id'), 'answers', ['id'], unique=False)
     op.create_index(op.f('ix_answers_question_id'), 'answers', ['question_id'], unique=False)
+    op.create_table('key_point_content',
+    sa.Column('id', sa.BigInteger(), nullable=False),
+    sa.Column('key_point_id', sa.BigInteger(), nullable=False),
+    sa.Column('content', postgresql.JSONB(astext_type=sa.Text()), nullable=False),
+    sa.Column('model_version', sa.String(length=50), nullable=True),
+    sa.Column('prompt_version', sa.String(length=50), nullable=True),
+    sa.Column('is_active', sa.Boolean(), server_default='true', nullable=False),
+    sa.Column('created_at', sa.TIMESTAMP(), server_default='now()', nullable=False),
+    sa.ForeignKeyConstraint(['key_point_id'], ['key_points.id'], ondelete='CASCADE'),
+    sa.PrimaryKeyConstraint('id')
+    )
+    op.create_index(op.f('ix_key_point_content_id'), 'key_point_content', ['id'], unique=False)
+    op.create_index(op.f('ix_key_point_content_key_point_id'), 'key_point_content', ['key_point_id'], unique=False)
     op.create_table('lesson_plan_outputs',
     sa.Column('id', sa.BigInteger(), nullable=False),
     sa.Column('input_id', sa.BigInteger(), nullable=False),
@@ -152,6 +170,9 @@ def downgrade() -> None:
     op.drop_index(op.f('ix_lesson_plan_outputs_input_id'), table_name='lesson_plan_outputs')
     op.drop_index(op.f('ix_lesson_plan_outputs_id'), table_name='lesson_plan_outputs')
     op.drop_table('lesson_plan_outputs')
+    op.drop_index(op.f('ix_key_point_content_key_point_id'), table_name='key_point_content')
+    op.drop_index(op.f('ix_key_point_content_id'), table_name='key_point_content')
+    op.drop_table('key_point_content')
     op.drop_index(op.f('ix_answers_question_id'), table_name='answers')
     op.drop_index(op.f('ix_answers_id'), table_name='answers')
     op.drop_table('answers')
@@ -166,6 +187,7 @@ def downgrade() -> None:
     op.drop_index(op.f('ix_lesson_plan_inputs_board_id'), table_name='lesson_plan_inputs')
     op.drop_table('lesson_plan_inputs')
     op.drop_index(op.f('ix_key_points_id'), table_name='key_points')
+    op.drop_index(op.f('ix_key_points_code'), table_name='key_points')
     op.drop_index(op.f('ix_key_points_chapter_id'), table_name='key_points')
     op.drop_table('key_points')
     op.drop_index(op.f('ix_chapters_subject_id'), table_name='chapters')
