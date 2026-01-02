@@ -21,4 +21,4 @@ class LessonPlanInput(Base):
     class_ = relationship("Class")
     subject = relationship("Subject")
     chapter = relationship("Chapter")
-    output = relationship("LessonPlanOutput", back_populates="input", uselist=False, cascade="all, delete-orphan")
+    session_maps = relationship("LessonPlanSessionMap", back_populates="lesson_input", cascade="all, delete-orphan")

@@ -148,7 +148,119 @@
     "subject_name": "Mathematics",
     "chapter_number": 1,
     "title": "Real Numbers",
-    "description": "Euclid’s division lemma and real number properties",
+    "description": "Fundamental theorem of arithmetic, Euclid’s division lemma, and properties of real numbers.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 2,
+    "title": "Polynomials",
+    "description": "Zeros of polynomials and relationship between zeros and coefficients.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 3,
+    "title": "Pair of Linear Equations in Two Variables",
+    "description": "Graphical and algebraic methods of solving linear equations in two variables.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 4,
+    "title": "Quadratic Equations",
+    "description": "Solutions of quadratic equations using factorization and quadratic formula.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 5,
+    "title": "Arithmetic Progressions",
+    "description": "Nth term and sum of terms of an arithmetic progression.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 6,
+    "title": "Triangles",
+    "description": "Similarity of triangles and applications of Pythagoras theorem.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 7,
+    "title": "Coordinate Geometry",
+    "description": "Distance formula, section formula, and area of a triangle.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 8,
+    "title": "Introduction to Trigonometry",
+    "description": "Trigonometric ratios, identities, and their applications.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 9,
+    "title": "Some Applications of Trigonometry",
+    "description": "Heights and distances using trigonometric ratios.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 10,
+    "title": "Circles",
+    "description": "Tangents to a circle and their properties.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 11,
+    "title": "Constructions",
+    "description": "Geometrical constructions involving division of line segments and tangents.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 12,
+    "title": "Areas Related to Circles",
+    "description": "Perimeter and area of circles, sectors, and segments.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 13,
+    "title": "Surface Areas and Volumes",
+    "description": "Surface area and volume of combinations of solids.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 14,
+    "title": "Statistics",
+    "description": "Mean, median, mode, and graphical representation of data.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 15,
+    "title": "Probability",
+    "description": "Basic concepts of probability and simple problems.",
     "board_name": "CBSE"
   },
   {
@@ -156,7 +268,111 @@
     "subject_name": "Science",
     "chapter_number": 1,
     "title": "Chemical Reactions and Equations",
-    "description": "Basics of chemical changes and equations",
+    "description": "Introduction to chemical reactions, types of reactions, balancing equations, and effects of oxidation and reduction.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 2,
+    "title": "Acids, Bases and Salts",
+    "description": "Properties of acids, bases and salts, pH scale, common salts and their uses in daily life.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 3,
+    "title": "Metals and Non-metals",
+    "description": "Physical and chemical properties of metals and non-metals, corrosion, extraction of metals and their uses.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 4,
+    "title": "Carbon and its Compounds",
+    "description": "Covalent bonding, carbon compounds, hydrocarbons, functional groups, ethanol and ethanoic acid.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 5,
+    "title": "Life Processes",
+    "description": "Nutrition, respiration, transportation and excretion processes in plants and animals.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 6,
+    "title": "Control and Coordination",
+    "description": "Nervous system, hormonal coordination in plants and animals, reflex actions.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 7,
+    "title": "How do Organisms Reproduce",
+    "description": "Modes of reproduction, sexual and asexual reproduction, human reproductive system.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 8,
+    "title": "Heredity and Evolution",
+    "description": "Mendel’s experiments, inheritance patterns, acquired and inherited traits, evolution.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 9,
+    "title": "Light – Reflection and Refraction",
+    "description": "Reflection of light, refraction, image formation by mirrors and lenses, applications in daily life.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 10,
+    "title": "The Human Eye and the Colourful World",
+    "description": "Structure of human eye, defects of vision, dispersion, scattering of light.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 11,
+    "title": "Electricity",
+    "description": "Electric current, potential difference, Ohm’s law, electrical energy and power.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 12,
+    "title": "Magnetic Effects of Electric Current",
+    "description": "Magnetic field, electromagnetic induction, electric motors and generators.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 13,
+    "title": "Our Environment",
+    "description": "Ecosystems, food chains, energy flow, environmental issues and conservation.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 14,
+    "title": "Sources of Energy",
+    "description": "Renewable and non-renewable energy sources, thermal power, solar energy, biogas.",
     "board_name": "CBSE"
   },
   {
@@ -165,6 +381,86 @@
     "chapter_number": 1,
     "title": "Resources and Development",
     "description": "Types and use of natural resources",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 1,
+    "title": "A Letter to God",
+    "description": "A story highlighting faith, hope, and human values.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 2,
+    "title": "Nelson Mandela: Long Walk to Freedom",
+    "description": "Autobiographical account of Nelson Mandela’s struggle for freedom.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 3,
+    "title": "Two Stories About Flying",
+    "description": "Stories about fear, courage, and self-confidence.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 4,
+    "title": "From the Diary of Anne Frank",
+    "description": "Diary entries depicting life during World War II.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 5,
+    "title": "The Hundred Dresses",
+    "description": "Story highlighting bullying, kindness, and empathy.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 6,
+    "title": "Glimpses of India",
+    "description": "Cultural diversity and traditions of India.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 7,
+    "title": "Mijbil the Otter",
+    "description": "An amusing account of the author’s pet otter.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 8,
+    "title": "Madam Rides the Bus",
+    "description": "A story about curiosity, independence, and life lessons.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 9,
+    "title": "The Sermon at Benares",
+    "description": "Teachings of Buddha on suffering and impermanence.",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 10,
+    "title": "The Proposal",
+    "description": "A humorous play about marriage and materialism.",
     "board_name": "CBSE"
   },
   {

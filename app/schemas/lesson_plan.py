@@ -8,10 +8,8 @@ class LessonPlanGenerateRequest(BaseModel):
     class_name: str
     subject_name: str
     chapter_title: str
-    key_points: List[Dict[str, Any]]
 
 
 class LessonPlanGenerateResponse(BaseModel):
     sessions: List[Dict[str, Any]]
-    session_key_point_mapping: Dict[int, List[int]]  # session_number -> key_point_ids
 

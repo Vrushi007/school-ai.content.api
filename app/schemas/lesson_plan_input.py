@@ -10,12 +10,6 @@ class LessonPlanRequest(BaseModel):
     planned_sessions: int
 
 
-class LessonPlanResponse(BaseModel):
-    from_cache: bool
-    lesson_plan: list
-    success: bool
-
-
 class LessonPlanInputBase(BaseModel):
     board_id: int
     class_id: int
