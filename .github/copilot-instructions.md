@@ -9,7 +9,7 @@ Purpose: Help code-writing agents be immediately productive in this FastAPI + SQ
 
 1. Big picture
 
-- **What**: A single FastAPI microservice that models hierarchical educational content (Board → State → Syllabus → Class → Subject → Chapter → KeyPoint → Session → Question).
+- **What**: A single FastAPI microservice that models hierarchical educational content (State → Board → Class → Subject → Chapter → KeyPoint + AI-powered lesson planning with sessions).
 - **Where**: `app/` contains the API surface (`app/main.py`, `app/routers/*`), domain models (`app/models/*`), business logic (`app/services/*`), and schemas (`app/schemas/*`).
 - **DB layer**: SQLAlchemy declarative `app/db/base.py` + `app/db/session.py` (uses `DATABASE_URL` from `.env`). Alembic migrations live in `alembic/versions`.
 
@@ -27,7 +27,7 @@ Purpose: Help code-writing agents be immediately productive in this FastAPI + SQ
 - Schemas are Pydantic v2 models. Use `.model_dump()` or `.model_dump(exclude_unset=True)` when converting for SQLAlchemy objects (see `app/services/chapter_service.py`).
 - Database session is provided via dependency `get_db()` from `app/db/session.py`. Use `Depends(get_db)` in routers.
 - Models use simple declarative classes under `app/models/`. Look at `app/models/chapter.py` for naming/field conventions (snake_case columns, `id` primary key).
-- Seed ordering matters — `seed_data.py` inserts in dependency order (states → boards → syllabus → classes → subjects → chapters). Follow the same order for new seed files.
+- Seed ordering matters — `seed_data.py` inserts in dependency order (states → boards → classes → subjects → chapters). Follow the same order for new seed files.
 
 4. Error handling and HTTP conventions
 

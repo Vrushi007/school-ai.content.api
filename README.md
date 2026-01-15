@@ -5,11 +5,12 @@ A microservice for managing educational content across multiple education boards
 ## Features
 
 - **Multi-Board Support**: CBSE, ICSE, IB, IGCSE, NIOS, State Boards, Engineering Universities, Exam Boards
-- **Hierarchical Content Structure**: Board → State → Syllabus → Class → Subject → Chapter
-- **Key Points Management**: Atomic learning units for each chapter
-- **AI-Powered Lesson Planning**: Generate lesson plans with session grouping
-- **Session Management**: Detailed session content with activities, assessments, and resources
+- **Hierarchical Content Structure**: State → Board → Class → Subject → Chapter → Key Points
+- **Key Points Management**: Atomic learning units with difficulty and cognitive levels (Bloom's taxonomy)
+- **AI-Powered Lesson Planning**: Intelligent session grouping based on learning progression
+- **Session Content Generation**: Automated summary, objectives, and detailed teaching content
 - **Question Bank**: Comprehensive question storage and management
+- **Hash-based Caching**: Efficient lesson plan reuse based on input parameters
 
 ## Tech Stack
 
@@ -47,16 +48,16 @@ content-service/
 
 ## Database Models
 
-1. **Board**: Education boards and universities
-2. **State**: States (for state boards)
-3. **Syllabus**: Specific syllabus instances
-4. **Class**: Grades/semesters/sections
-5. **Subject**: Subjects within a class
-6. **Chapter**: Chapters within a subject
-7. **KeyPoint**: Atomic learning concepts
-8. **Session**: AI-grouped teaching sessions
-9. **SessionKeyPoint**: Mapping between sessions and key points
-10. **SessionDetails**: Detailed teaching content
+1. **State**: Indian states and UTs
+2. **Board**: Education boards (national and state-specific)
+3. **Class**: Grades/semesters/sections within a board
+4. **Subject**: Subjects within a class
+5. **Chapter**: Chapters within a subject
+6. **KeyPoint**: Atomic learning concepts with difficulty and cognitive levels
+7. **KeyPointContent**: Detailed content for each key point
+8. **LessonPlanInput**: Cached input parameters for lesson plan generation (with hash)
+9. **LessonPlanSessionMap**: AI-grouped sessions with key point mappings
+10. **LessonPlanSessionContent**: Generated session summaries, objectives, and detailed content
 11. **Question**: Questions for assessments
 12. **Answer**: Answers to questions
 
@@ -149,17 +150,10 @@ make clean
 - `POST /states` - Create a state
 - `GET /states` - List all states
 
-### Syllabus
-
-- `POST /syllabus` - Create a syllabus
-- `GET /syllabus` - List all syllabi
-- `GET /syllabus/{id}` - Get syllabus by ID
-- `DELETE /syllabus/{id}` - Delete a syllabus
-
 ### Classes
 
 - `POST /classes` - Create a class
-- `GET /classes/syllabus/{syllabus_id}` - Get classes by syllabus
+- `GET /classes/{board_id}` - Get classes by board
 - `PUT /classes/{id}` - Update a class
 - `DELETE /classes/{id}` - Delete a class
 
@@ -186,23 +180,19 @@ make clean
 - `PUT /key-points/{id}` - Update a key point
 - `DELETE /key-points/{id}` - Delete a key point
 
-### Sessions
+### Lesson Plans (AI-Powered)
 
-- `POST /sessions` - Create a session
-- `GET /sessions/chapters/{chapter_id}` - Get sessions by chapter
-- `PUT /sessions/{id}` - Update a session
-- `DELETE /sessions/{id}` - Delete a session
-
-### Session Key Points
-
-- `POST /session-key-points/bulk` - Create session-key-point mappings
-- `GET /session-key-points/sessions/{session_id}` - Get key points by session
-
-### Session Details
-
-- `POST /session-details` - Create session details
-- `GET /session-details/sessions/{session_id}` - Get session details
-- `PUT /session-details/{id}` - Update session details
+- `POST /lesson-plans/group-kps-into-sessions` - Group key points into teaching sessions
+  - Request: board_id, class_id, subject_id, chapter_id, planned_sessions
+  - Response: Grouped sessions with metadata, cached results when available
+  
+- `POST /lesson-plans/generate-session-summary` - Generate AI summary and objectives for a session
+  - Request: session_map_id
+  - Response: Session summary and learning objectives
+  
+- `POST /lesson-plans/get-session-detailed-content` - Get or generate detailed teaching content
+  - Request: session_id
+  - Response: Complete teaching script, board work, activities, assessments, resources
 
 ### Questions
 
@@ -231,10 +221,9 @@ make seed
 
 - 36 Indian states and UTs
 - 185+ education boards (national and state-specific)
-- 609+ syllabus definitions
-- 1,163+ classes/grades
+- 1,163+ classes/grades across all boards
 - 333+ subjects
-- Sample chapters
+- Sample chapters for major boards (CBSE, ICSE, Karnataka State Board, etc.)
 
 See [SEED_DATA_GUIDE.md](./SEED_DATA_GUIDE.md) for complete documentation on:
 

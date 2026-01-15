@@ -27,12 +27,11 @@ make seed-docker
 
 ```
 seed_data/
-├── states.json      # Indian states
+├── states.json      # Indian states and UTs
 ├── boards.json      # Education boards (national & state-specific)
-├── syllabus.json    # Syllabus definitions
-├── classes.json     # Classes/grades/semesters
-├── subjects.json    # Subjects
-└── chapters.json    # Chapters
+├── classes.json     # Classes/grades/semesters (linked to boards)
+├── subjects.json    # Subjects (linked to classes)
+└── chapters.json    # Chapters (linked to subjects)
 ```
 
 ## JSON File Formats
@@ -63,27 +62,19 @@ seed_data/
 ]
 ```
 
-### syllabus.json
-
-```json
-[
-  {
-    "board_name": "CBSE", // Must match board name
-    "state_code": null, // Must match board's state (null for national)
-    "name": "CBSE Class 10",
-    "academic_year": "2024-25"
-  }
-]
-```
-
 ### classes.json
 
 ```json
 [
   {
-    "syllabus_name": "CBSE Class 10", // Must match syllabus name
+    "board_name": "CBSE", // Must match board name
     "name": "Class 10",
     "display_order": 10
+  },
+  {
+    "board_name": "Karnataka State Board",
+    "name": "1st PUC",
+    "display_order": 11
   }
 ]
 ```
@@ -133,19 +124,20 @@ The system will:
 - National boards: `state_code` must be `null`
 - State boards: `state_code` must match an existing state code
 
-### Syllabus-Board Relationship
-
-- If board is state-specific → syllabus `state_code` must match board's state
-- If board is national → syllabus `state_code` must be `null`
-
 ### Reference Validation
 
 - All referenced entities must exist:
-  - `board_name` → must exist in boards
-  - `state_code` → must exist in states
-  - `syllabus_name` → must exist in syllabus
-  - `class_name` → must exist in classes
-  - `subject_name` → must exist in subjects
+  - `state_code` → must exist in states (for state-specific boards)
+  - `board_name` → must exist in boards (for classes)
+  - `class_name` → must exist in classes (for subjects)
+  - `subject_name` → must exist in subjects (for chapters)
+
+### Data Hierarchy
+
+- States → Boards (boards reference states)
+- Boards → Classes (classes reference boards)
+- Classes → Subjects (subjects reference classes)
+- Subjects → Chapters (chapters reference subjects)
 
 ## Error Handling
 
@@ -178,20 +170,19 @@ Edit `seed_data/boards.json`:
 }
 ```
 
-### Step 3: Add Syllabus
+### Step 3: Add Classes
 
-Edit `seed_data/syllabus.json`:
+Edit `seed_data/classes.json`:
 
 ```json
 {
   "board_name": "Goa State Board",
-  "state_code": "GA",
-  "name": "Goa SSC",
-  "academic_year": "2024-25"
+  "name": "Class 10 (SSC)",
+  "display_order": 10
 }
 ```
 
-### Step 4: Add Classes, Subjects, Chapters
+### Step 4: Add Subjects and Chapters
 
 Follow the same pattern in respective JSON files.
 
@@ -206,7 +197,7 @@ make seed
 ### Error: "Board 'X' not found"
 
 - Check `boards.json` - board name must match exactly
-- Ensure boards are seeded before syllabus
+- Ensure boards are seeded before classes
 
 ### Error: "State with code 'X' not found"
 
@@ -226,10 +217,11 @@ make seed
 ## Best Practices
 
 1. **Use descriptive names**: Make names unique and descriptive
-2. **Follow dependency order**: States → Boards → Syllabus → Classes → Subjects → Chapters
+2. **Follow dependency order**: States → Boards → Classes → Subjects → Chapters
 3. **Test incrementally**: Add a few records, test, then add more
 4. **Version control**: Commit JSON files to track curriculum changes
 5. **Backup before seeding**: Especially in production
+6. **Run idempotently**: Safe to run seed script multiple times - it updates existing records
 
 ## Production Usage
 

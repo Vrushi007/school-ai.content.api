@@ -4,12 +4,11 @@ This directory contains JSON files with initial curriculum data for the database
 
 ## Files
 
-- `states.json` - Indian states
-- `boards.json` - Education boards and universities (national and state-specific)
-- `syllabus.json` - Syllabus definitions
-- `classes.json` - Classes/grades/semesters within syllabi
-- `subjects.json` - Subjects within classes
-- `chapters.json` - Chapters within subjects
+- `states.json` - Indian states and UTs (36 total)
+- `boards.json` - Education boards and universities (185+ national and state-specific)
+- `classes.json` - Classes/grades/semesters (1,163+ across all boards)
+- `subjects.json` - Subjects within classes (333+ subjects)
+- `chapters.json` - Sample chapters for major boards
 
 ## Usage
 
@@ -40,7 +39,9 @@ Simply edit the JSON files and run the seed script again. The system is idempote
 1. **Use unique identifiers**: Names should be unique within their scope
 2. **Reference by name**: Use names (not IDs) to link related entities
 3. **Follow relationships**: Ensure referenced entities exist before referencing them
-4. **Order matters**: Seed in dependency order (states → boards → syllabus → classes → subjects → chapters)
+4. **Order matters**: Seed in dependency order (states → boards → classes → subjects → chapters)
+5. **State codes**: Use official 2-letter state codes (e.g., KA, TN, MH)
+6. **Board names**: Must exactly match when referenced by classes
 
 ## Example: Adding a New Board
 
