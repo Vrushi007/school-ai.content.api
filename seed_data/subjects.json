@@ -1,77 +1,12 @@
 [
   {
-    "class_name": "Class 1",
-    "name": "Mathematics",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 1",
+    "class_name": "Class 9",
     "name": "English",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 1",
-    "name": "Environmental Studies",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 2",
-    "name": "Mathematics",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 2",
-    "name": "English",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 2",
-    "name": "Environmental Studies",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Mathematics",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Science",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Social Science",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 7",
-    "name": "Mathematics",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 7",
-    "name": "Science",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 7",
-    "name": "Social Science",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 8",
-    "name": "Mathematics",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 8",
-    "name": "Science",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 8",
-    "name": "Social Science",
+    "class_name": "Class 9",
+    "name": "Hindi",
     "board_name": "CBSE"
   },
   {
@@ -90,8 +25,13 @@
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 9",
+    "class_name": "Class 10",
     "name": "English",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "name": "Hindi",
     "board_name": "CBSE"
   },
   {
@@ -108,116 +48,6 @@
     "class_name": "Class 10",
     "name": "Social Science",
     "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "English",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "English",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Mathematics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Mathematics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Science",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "History & Civics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Mathematics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Physics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Chemistry",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Biology",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "History & Civics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Mathematics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Physics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Chemistry",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Biology",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "History & Civics",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Kannada",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Mathematics",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Environmental Studies",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Kannada",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Mathematics",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Science",
-    "board_name": "Karnataka State Board"
   },
   {
     "class_name": "Class 9",
@@ -226,17 +56,27 @@
   },
   {
     "class_name": "Class 9",
+    "name": "English",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "name": "Hindi",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "name": "Mathematics",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
     "name": "Science",
     "board_name": "Karnataka State Board"
   },
   {
     "class_name": "Class 9",
     "name": "Social Science",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Mathematics",
     "board_name": "Karnataka State Board"
   },
   {
@@ -246,6 +86,21 @@
   },
   {
     "class_name": "Class 10",
+    "name": "English",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "name": "Hindi",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "name": "Mathematics",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
     "name": "Science",
     "board_name": "Karnataka State Board"
   },
@@ -253,155 +108,5 @@
     "class_name": "Class 10",
     "name": "Social Science",
     "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Mathematics",
-    "board_name": "Karnataka State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Tamil",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Mathematics",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Tamil",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Science",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Tamil",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Mathematics",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Tamil",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Science",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Social Science",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Mathematics",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Marathi",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Mathematics",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Marathi",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Science",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Science",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "History & Civics",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Science",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Mathematics",
-    "board_name": "SSC"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "History & Civics",
-    "board_name": "SSC"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Malayalam",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "name": "Mathematics",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Malayalam",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "name": "Science",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Malayalam",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "name": "Mathematics",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Malayalam",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Science",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Social Science",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "name": "Mathematics",
-    "board_name": "Kerala State Board"
   }
 ]

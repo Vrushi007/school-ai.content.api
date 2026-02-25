@@ -11,6 +11,8 @@ from app.routers import (
     questions,
     lesson_plans
 )
+from app.db.session import SessionLocal
+from app.db.seed import run_seed
 
 # Get environment
 environment = os.getenv("ENVIRONMENT", "development")
@@ -40,6 +42,26 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.on_event("startup")
+def startup_event():
+    """
+    Startup event to optionally seed the database.
+    Set AUTO_SEED=true environment variable to enable automatic seeding.
+    """
+    auto_seed = os.getenv("AUTO_SEED", "false").lower() == "true"
+    
+    if auto_seed:
+        print("\n🌱 AUTO_SEED is enabled, checking database...")
+        db = SessionLocal()
+        try:
+            run_seed(db)
+        finally:
+            db.close()
+    else:
+        print("\n💡 AUTO_SEED is disabled. Set AUTO_SEED=true to enable automatic seeding on startup.")
+
 
 # Include routers
 app.include_router(boards.router)

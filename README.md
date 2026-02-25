@@ -91,11 +91,22 @@ content-service/
    ```
 
 5. **Seed the database** (optional - populates initial curriculum data):
+
+   **Option A: Automatic Seeding on Startup**
+   
+   Set the `AUTO_SEED` environment variable to `true` in your `.env` file:
+   ```bash
+   AUTO_SEED=true
+   ```
+   The database will automatically seed on application startup if it's empty.
+
+   **Option B: Manual Seeding**
    ```bash
    make seed-docker
    # or
    docker compose exec content-service python seed_data.py
    ```
+   
    See [SEED_DATA_GUIDE.md](./SEED_DATA_GUIDE.md) for detailed seeding documentation.
 
 ### Detailed Guides
@@ -174,9 +185,10 @@ make clean
 
 ### Key Points
 
-- `POST /key-points` - Create a key point
-- `POST /key-points/bulk` - Create multiple key points
-- `GET /key-points/chapters/{chapter_id}` - Get key points by chapter
+- `POST /key-points/` - Create key points (bulk or single)
+- `GET /key-points/` - Get all key points (with filters)
+- `GET /key-points/{id}` - Get key point by ID
+- `GET /key-points/chapter/{chapter_id}` - Get key points by chapter
 - `PUT /key-points/{id}` - Update a key point
 - `DELETE /key-points/{id}` - Delete a key point
 
@@ -185,11 +197,9 @@ make clean
 - `POST /lesson-plans/group-kps-into-sessions` - Group key points into teaching sessions
   - Request: board_id, class_id, subject_id, chapter_id, planned_sessions
   - Response: Grouped sessions with metadata, cached results when available
-  
 - `POST /lesson-plans/generate-session-summary` - Generate AI summary and objectives for a session
   - Request: session_map_id
   - Response: Session summary and learning objectives
-  
 - `POST /lesson-plans/get-session-detailed-content` - Get or generate detailed teaching content
   - Request: session_id
   - Response: Complete teaching script, board work, activities, assessments, resources

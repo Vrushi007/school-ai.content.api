@@ -1,0 +1,1083 @@
+[
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Chemical Reactions and Equations",
+    "planned_sessions": 4,
+    "input_hash": "314679813ad3ed8f2f5ca9ed27ba89610070160db93d4d6367e631283d98c8aa",
+    "session_number": 1,
+    "session_title": "Introduction to Chemical Reactions",
+    "kp_codes": [
+      "cbse10_science_8db02d_kp01",
+      "cbse10_science_1ed6fa_kp02",
+      "cbse10_science_6187c8_kp03"
+    ],
+    "session_summary": {
+      "summary": "This session will focus on the fundamental concepts of chemical reactions and equations. Teachers will guide students in identifying observable changes that signify a chemical reaction, distinguish between reactants and products, and practice writing word equations based on descriptions of reactions.",
+      "objectives": [
+        "Identify observable changes indicating a chemical reaction.",
+        "Explain the difference between reactants and products in chemical equations.",
+        "Demonstrate how to write word equations from given reaction descriptions."
+      ]
+    },
+    "session_content": {
+      "class": "Class 10",
+      "wrapUp": {
+        "summary": [
+          "Today, we learned about observable changes in chemical reactions.",
+          "We distinguished between reactants and products.",
+          "We practiced writing word equations."
+        ],
+        "closureActivity": "Students will each share one new thing they learned in today's session.",
+        "engagementQuestions": [
+          "Can you name a chemical reaction you observed in real life?",
+          "Why do you think it's important to understand chemical reactions?"
+        ]
+      },
+      "subject": "Science",
+      "summary": "This session will focus on the fundamental concepts of chemical reactions and equations. Teachers will guide students in identifying observable changes that signify a chemical reaction, distinguish between reactants and products, and practice writing word equations based on descriptions of reactions.",
+      "duration": 39.01275181770325,
+      "resources": {
+        "materials": [
+          "Projector",
+          "Videos on chemical reactions",
+          "Poster paper"
+        ],
+        "references": [
+          "NCERT Science Textbook for Class 10",
+          "Additional online resources about chemical reactions"
+        ],
+        "youtubeVideos": {
+          "data": [
+            {
+              "title": "Chemical Reactions",
+              "duration": "4:21",
+              "video_id": "Lvbm8horG1U",
+              "embed_url": "https://www.youtube.com/embed/Lvbm8horG1U",
+              "video_url": "https://www.youtube.com/watch?v=Lvbm8horG1U",
+              "channel_id": "UCi9I-zP_yEegqy28NpMh-Mg",
+              "like_count": "2436",
+              "view_count": "264688",
+              "description": "For Employees of hospitals, schools, universities and libraries: download up to 8 FREE medical animations from Nucleus by ...",
+              "published_at": "2021-12-01T00:03:13Z",
+              "channel_title": "Nucleus Biology",
+              "thumbnail_url": "https://i.ytimg.com/vi/Lvbm8horG1U/mqdefault.jpg"
+            },
+            {
+              "title": "Chemical Reactions",
+              "duration": "15:01",
+              "video_id": "AkWYrp8Z5X4",
+              "embed_url": "https://www.youtube.com/embed/AkWYrp8Z5X4",
+              "video_url": "https://www.youtube.com/watch?v=AkWYrp8Z5X4",
+              "channel_id": "UCEWpbFLzoYGPfuWUMFPSaoA",
+              "like_count": "2300",
+              "view_count": "102393",
+              "description": "This chemistry video tutorial discusses the different types of chemical reactions such as synthesis or combination reactions, ...",
+              "published_at": "2020-01-03T14:30:01Z",
+              "channel_title": "The Organic Chemistry Tutor",
+              "thumbnail_url": "https://i.ytimg.com/vi/AkWYrp8Z5X4/mqdefault.jpg"
+            },
+            {
+              "title": "Good Thinking! — Chemical Reactions in Action",
+              "duration": "10:13",
+              "video_id": "5iowJs6MryI",
+              "embed_url": "https://www.youtube.com/embed/5iowJs6MryI",
+              "video_url": "https://www.youtube.com/watch?v=5iowJs6MryI",
+              "channel_id": "UC6dyNTnSopdgye2gQBVSNVg",
+              "like_count": "3197",
+              "view_count": "586707",
+              "description": "Chemical Reactions in Action — explores student misconceptions about atoms, molecules, and chemical reactions and provides ...",
+              "published_at": "2015-12-08T13:30:32Z",
+              "channel_title": "Smithsonian Science Education Center (SSEC)",
+              "thumbnail_url": "https://i.ytimg.com/vi/5iowJs6MryI/mqdefault.jpg"
+            },
+            {
+              "title": "The chemistry of cookies - Stephanie Warren",
+              "duration": "4:30",
+              "video_id": "n6wpNhyreDE",
+              "embed_url": "https://www.youtube.com/embed/n6wpNhyreDE",
+              "video_url": "https://www.youtube.com/watch?v=n6wpNhyreDE",
+              "channel_id": "UCsooa4yRKGN_zEE8iknghZA",
+              "like_count": "67708",
+              "view_count": "3959480",
+              "description": "View full lesson: http://ed.ted.com/lessons/the-chemistry-of-cookies-stephanie-warren You stick cookie dough into an oven, and ...",
+              "published_at": "2013-11-19T16:01:11Z",
+              "channel_title": "TED-Ed",
+              "thumbnail_url": "https://i.ytimg.com/vi/n6wpNhyreDE/mqdefault.jpg"
+            },
+            {
+              "title": "Level 1 to 100 Science Experiments",
+              "duration": "15:53",
+              "video_id": "s9ALylTC9YQ",
+              "embed_url": "https://www.youtube.com/embed/s9ALylTC9YQ",
+              "video_url": "https://www.youtube.com/watch?v=s9ALylTC9YQ",
+              "channel_id": "UCXMVaxrax7RNDPdfRrXXgtQ",
+              "like_count": "173716",
+              "view_count": "31675340",
+              "description": "This is level 1 to 100 science experiments! Level 100 gets insane. Download Coffee Meets Bagel, the dating app for serious ...",
+              "published_at": "2023-10-21T16:09:11Z",
+              "channel_title": "Hafu Go",
+              "thumbnail_url": "https://i.ytimg.com/vi/s9ALylTC9YQ/mqdefault.jpg"
+            },
+            {
+              "title": "4 Amazing Science Experiments for a Day Inside | Compilation | SciShow Kids",
+              "duration": "17:09",
+              "video_id": "1Q_4HXewiS0",
+              "embed_url": "https://www.youtube.com/embed/1Q_4HXewiS0",
+              "video_url": "https://www.youtube.com/watch?v=1Q_4HXewiS0",
+              "channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA",
+              "like_count": "4960",
+              "view_count": "2335955",
+              "description": "Squeaks is very bored, so he shows Mister Brown some of his favorite rainy day experiments! Hosted by: Anthony Brown ...",
+              "published_at": "2020-12-28T14:00:00Z",
+              "channel_title": "SciShow Kids",
+              "thumbnail_url": "https://i.ytimg.com/vi/1Q_4HXewiS0/mqdefault.jpg"
+            },
+            {
+              "title": "GENERAL CHEMISTRY explained in 19 Minutes",
+              "duration": "18:49",
+              "video_id": "5iTOphGnCtg",
+              "embed_url": "https://www.youtube.com/embed/5iTOphGnCtg",
+              "video_url": "https://www.youtube.com/watch?v=5iTOphGnCtg",
+              "channel_id": "UC8VhAX-voAUegprM4SpHQJQ",
+              "like_count": "244548",
+              "view_count": "4540639",
+              "description": "ALL OF PHYSICS in 14 Minutes: https://youtu.be/ZAqIoDhornk Oh yeah also I have Instagram now: ...",
+              "published_at": "2024-03-10T11:24:43Z",
+              "channel_title": "Wacky Science",
+              "thumbnail_url": "https://i.ytimg.com/vi/5iTOphGnCtg/mqdefault.jpg"
+            },
+            {
+              "title": "Lab Tools and Equipment - Know your glassware and become an expert Chemist! | Chemistry",
+              "duration": "4:44",
+              "video_id": "chODOKSPJS4",
+              "embed_url": "https://www.youtube.com/embed/chODOKSPJS4",
+              "video_url": "https://www.youtube.com/watch?v=chODOKSPJS4",
+              "channel_id": "UCbaZa-dV7h9QOLzrzrY363w",
+              "like_count": "15600",
+              "view_count": "1688540",
+              "description": "Are you sure you're handling your glassware safely? Learn to identify the function of tools and equipment in a Chemistry Lab ...",
+              "published_at": "2019-07-19T04:06:07Z",
+              "channel_title": "Free Animated Education",
+              "thumbnail_url": "https://i.ytimg.com/vi/chODOKSPJS4/mqdefault.jpg"
+            },
+            {
+              "title": "Make Your Own Rock Candy! | The Science of Cooking! | SciShow Kids",
+              "duration": "4:47",
+              "video_id": "jyYrHQvvqy8",
+              "embed_url": "https://www.youtube.com/embed/jyYrHQvvqy8",
+              "video_url": "https://www.youtube.com/watch?v=jyYrHQvvqy8",
+              "channel_id": "UCRFIPG2u1DxKLNuE3y2SjHA",
+              "like_count": "3693",
+              "view_count": "798966",
+              "description": "Jessi and Squeaks learn all about crystallization while they make some yummy rock candy! ---------- Love SciShow Kids and want ...",
+              "published_at": "2021-03-01T22:38:30Z",
+              "channel_title": "SciShow Kids",
+              "thumbnail_url": "https://i.ytimg.com/vi/jyYrHQvvqy8/mqdefault.jpg"
+            },
+            {
+              "title": "What is Freezing Point, Melting Point and Boiling Point? | Chemistry Lessons | Dr. Binocs Show",
+              "duration": "6:26",
+              "video_id": "Yv_vDQerOBk",
+              "embed_url": "https://www.youtube.com/embed/Yv_vDQerOBk",
+              "video_url": "https://www.youtube.com/watch?v=Yv_vDQerOBk",
+              "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+              "like_count": "3155",
+              "view_count": "504434",
+              "description": "Melting point is the temperature at which a solid turns into a liquid, boiling point is the temperature at which a liquid turns into a ...",
+              "published_at": "2025-05-30T12:30:43Z",
+              "channel_title": "Peekaboo Kidz",
+              "thumbnail_url": "https://i.ytimg.com/vi/Yv_vDQerOBk/mqdefault.jpg"
+            },
+            {
+              "title": "How to study CHEMISTRY so FAST that it feels ILLEGAL",
+              "duration": "6:57",
+              "video_id": "0oHMoSSelo0",
+              "embed_url": "https://www.youtube.com/embed/0oHMoSSelo0",
+              "video_url": "https://www.youtube.com/watch?v=0oHMoSSelo0",
+              "channel_id": "UCFRUDZUCGDlZGeGfftBovXw",
+              "like_count": "25990",
+              "view_count": "478900",
+              "description": "How to Study Chemistry So FAST It Feels ILLEGAL (But It's Totally Legal ) Chemistry doesn't have to feel like you're reading ...",
+              "published_at": "2025-08-20T15:00:24Z",
+              "channel_title": "simple, actually",
+              "thumbnail_url": "https://i.ytimg.com/vi/0oHMoSSelo0/mqdefault.jpg"
+            },
+            {
+              "title": "Pure Substances and Mixtures | Science for Kids",
+              "duration": "4:39",
+              "video_id": "jCVQwr_TWpY",
+              "embed_url": "https://www.youtube.com/embed/jCVQwr_TWpY",
+              "video_url": "https://www.youtube.com/watch?v=jCVQwr_TWpY",
+              "channel_id": "UCxoDMG0tvaYO5Xobvtqw5nw",
+              "like_count": "2780",
+              "view_count": "462766",
+              "description": "Educational video for children to learn about pure substances and mixtures. Pure substances are composed of one single type of ...",
+              "published_at": "2021-10-12T15:30:13Z",
+              "channel_title": "Smile and Learn - English",
+              "thumbnail_url": "https://i.ytimg.com/vi/jCVQwr_TWpY/mqdefault.jpg"
+            },
+            {
+              "title": "5 Easy Science Experiments for Kids with DeeDee | Learn at Home",
+              "duration": "13:04",
+              "video_id": "NWPcMFGgNms",
+              "embed_url": "https://www.youtube.com/embed/NWPcMFGgNms",
+              "video_url": "https://www.youtube.com/watch?v=NWPcMFGgNms",
+              "channel_id": "UC98mFb9Dw3QP7MwvlPoiiFA",
+              "like_count": "1904",
+              "view_count": "2925032",
+              "description": "5 Easy science experiments for kids with DeeDee / Learn at home. DeeDee and Matteo have a ton of fun doing 5 cool ...",
+              "published_at": "2020-05-15T12:04:17Z",
+              "channel_title": "DeeDee Show",
+              "thumbnail_url": "https://i.ytimg.com/vi/NWPcMFGgNms/mqdefault.jpg"
+            },
+            {
+              "title": "What Is An Atom? | The Dr. Binocs Show | Best Learning Videos For Kids | Peekaboo Kidz",
+              "duration": "7:17",
+              "video_id": "jMW_0Ro6b5c",
+              "embed_url": "https://www.youtube.com/embed/jMW_0Ro6b5c",
+              "video_url": "https://www.youtube.com/watch?v=jMW_0Ro6b5c",
+              "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+              "like_count": "32695",
+              "view_count": "2994004",
+              "description": "What Is An Atom? | The Dr. Binocs Show | Best Learning Videos For Kids | Peekaboo Kidz Hi KIDZ! Welcome to a BRAND NEW ...",
+              "published_at": "2019-03-08T12:30:02Z",
+              "channel_title": "Peekaboo Kidz",
+              "thumbnail_url": "https://i.ytimg.com/vi/jMW_0Ro6b5c/mqdefault.jpg"
+            },
+            {
+              "title": "The most dangerous elements on the periodic table - Shannon Odell",
+              "duration": "4:39",
+              "video_id": "7Vhu433hkys",
+              "embed_url": "https://www.youtube.com/embed/7Vhu433hkys",
+              "video_url": "https://www.youtube.com/watch?v=7Vhu433hkys",
+              "channel_id": "UCsooa4yRKGN_zEE8iknghZA",
+              "like_count": "18519",
+              "view_count": "826690",
+              "description": "Learn more at https://brilliant.org/TedEd -- Within the periodic table loom many potential hazardous elements. Some elements are ...",
+              "published_at": "2024-08-06T15:02:13Z",
+              "channel_title": "TED-Ed",
+              "thumbnail_url": "https://i.ytimg.com/vi/7Vhu433hkys/mqdefault.jpg"
+            },
+            {
+              "title": "Setting up and Performing a Titration",
+              "duration": "6:53",
+              "video_id": "sFpFCPTDv2w",
+              "embed_url": "https://www.youtube.com/embed/sFpFCPTDv2w",
+              "video_url": "https://www.youtube.com/watch?v=sFpFCPTDv2w",
+              "channel_id": "UC8DoM2dwVIa0Wp424dm3B0g",
+              "like_count": "37634",
+              "view_count": "3726896",
+              "description": "This video takes you through the proper technique for setting up and performing a titration. This is the first video in a two part ...",
+              "published_at": "2010-02-17T23:31:02Z",
+              "channel_title": "Carolina Science",
+              "thumbnail_url": "https://i.ytimg.com/vi/sFpFCPTDv2w/mqdefault.jpg"
+            },
+            {
+              "title": "Acids and Bases for Kids | Learn the difference between an acid and a base",
+              "duration": "9:23",
+              "video_id": "ivRczDkilAI",
+              "embed_url": "https://www.youtube.com/embed/ivRczDkilAI",
+              "video_url": "https://www.youtube.com/watch?v=ivRczDkilAI",
+              "channel_id": "UCKCsVSA5THlkHbnkZTPm6-g",
+              "like_count": "1132",
+              "view_count": "211257",
+              "description": "Which beverage would you rather drink: milk, soda, water, or orange juice? Each one of these liquids tastes very different. Why?",
+              "published_at": "2022-07-12T18:34:44Z",
+              "channel_title": "Learn Bright",
+              "thumbnail_url": "https://i.ytimg.com/vi/ivRczDkilAI/mqdefault.jpg"
+            },
+            {
+              "title": "Good Thinking! — Chemical Reactions in Action",
+              "duration": "10:13",
+              "video_id": "5iowJs6MryI",
+              "embed_url": "https://www.youtube.com/embed/5iowJs6MryI",
+              "video_url": "https://www.youtube.com/watch?v=5iowJs6MryI",
+              "channel_id": "UC6dyNTnSopdgye2gQBVSNVg",
+              "like_count": "3197",
+              "view_count": "586707",
+              "description": "Chemical Reactions in Action — explores student misconceptions about atoms, molecules, and chemical reactions and provides ...",
+              "published_at": "2015-12-08T13:30:32Z",
+              "channel_title": "Smithsonian Science Education Center (SSEC)",
+              "thumbnail_url": "https://i.ytimg.com/vi/5iowJs6MryI/mqdefault.jpg"
+            },
+            {
+              "title": "Vinegar + Baking Soda + Balloons = FIZZY FUN! | Kids Science Experiments | Science for Kids",
+              "duration": "4:59",
+              "video_id": "_CYgsqji_0k",
+              "embed_url": "https://www.youtube.com/embed/_CYgsqji_0k",
+              "video_url": "https://www.youtube.com/watch?v=_CYgsqji_0k",
+              "channel_id": "UCgppk8qs5kcgtjaDi0mAzjw",
+              "like_count": "11699",
+              "view_count": "1637065",
+              "description": "Tweet about this video! http://bit.ly/1ZUlufx #socraticakids #socraticakidsscience Vinegar + Baking Soda + Balloons = FIZZY FUN!",
+              "published_at": "2016-03-10T05:46:20Z",
+              "channel_title": "Socratica Kids",
+              "thumbnail_url": "https://i.ytimg.com/vi/_CYgsqji_0k/mqdefault.jpg"
+            },
+            {
+              "title": "Physical and Chemical Changes",
+              "duration": "12:32",
+              "video_id": "LZH8DzQTsQY",
+              "embed_url": "https://www.youtube.com/embed/LZH8DzQTsQY",
+              "video_url": "https://www.youtube.com/watch?v=LZH8DzQTsQY",
+              "channel_id": "UCeAnrUKcxFGrMXfHgj0eMjg",
+              "like_count": "24696",
+              "view_count": "1385474",
+              "description": "Physical and Chemical Changes For Full Courses, LIVE Classes, Mock Tests & Notes please visit: Website: ...",
+              "published_at": "2018-04-20T03:43:36Z",
+              "channel_title": "Manocha Academy",
+              "thumbnail_url": "https://i.ytimg.com/vi/LZH8DzQTsQY/mqdefault.jpg"
+            },
+            {
+              "title": "Mixing Colors | Walking Water Science Experiments for Kids | Color Changing Milk",
+              "duration": "19:12",
+              "video_id": "DJ6ahjpckaE",
+              "embed_url": "https://www.youtube.com/embed/DJ6ahjpckaE",
+              "video_url": "https://www.youtube.com/watch?v=DJ6ahjpckaE",
+              "channel_id": "UCRtrWCTxogJk4iN8vSjXgrg",
+              "like_count": "1961",
+              "view_count": "6467218",
+              "description": "Today we are doing two easy science experiments for kids - the walking water science experiment with B and the color changing ...",
+              "published_at": "2022-12-10T14:33:45Z",
+              "channel_title": "Mayta the Brown Bear - Toddler Learning Videos",
+              "thumbnail_url": "https://i.ytimg.com/vi/DJ6ahjpckaE/mqdefault.jpg"
+            },
+            {
+              "title": "GCSE Chemistry - Separation Techniques - Filtration | Evaporation | Crystallisation",
+              "duration": "5:19",
+              "video_id": "29Rd-Lly-fw",
+              "embed_url": "https://www.youtube.com/embed/29Rd-Lly-fw",
+              "video_url": "https://www.youtube.com/watch?v=29Rd-Lly-fw",
+              "channel_id": "UCaGEe4KXZrjou9kQx6ezG2w",
+              "like_count": "1568",
+              "view_count": "110762",
+              "description": "Check out our website https://www.cognito.org/ ⭐️ *** WHAT'S COVERED *** 1. Introduction to methods for separating mixtures ...",
+              "published_at": "2025-05-30T14:39:13Z",
+              "channel_title": "Cognito",
+              "thumbnail_url": "https://i.ytimg.com/vi/29Rd-Lly-fw/mqdefault.jpg"
+            },
+            {
+              "title": "Kids Academy | Baking Soda and Vinegar",
+              "duration": "6:25",
+              "video_id": "uokHHArhQjc",
+              "embed_url": "https://www.youtube.com/embed/uokHHArhQjc",
+              "video_url": "https://www.youtube.com/watch?v=uokHHArhQjc",
+              "channel_id": "UCqb89GqploCXgz4lsdR-_ww",
+              "like_count": "494",
+              "view_count": "188041",
+              "description": "It's Kids Academy! Kids love science experiments, so today we are going to do some and see the reaction between baking soda ...",
+              "published_at": "2021-11-02T13:23:31Z",
+              "channel_title": "Kids Academy",
+              "thumbnail_url": "https://i.ytimg.com/vi/uokHHArhQjc/mqdefault.jpg"
+            },
+            {
+              "title": "The Scientific Method: Steps, Examples, Tips, and Exercise",
+              "duration": "8:39",
+              "video_id": "yi0hwFDQTSQ",
+              "embed_url": "https://www.youtube.com/embed/yi0hwFDQTSQ",
+              "video_url": "https://www.youtube.com/watch?v=yi0hwFDQTSQ",
+              "channel_id": "UC-RKpEc4eE9PwJaupN91xYQ",
+              "like_count": "18975",
+              "view_count": "1895107",
+              "description": "The scientific method is an important tool to solve problems and learn from our observations. There are six steps to it: Observe and ...",
+              "published_at": "2017-10-05T10:59:20Z",
+              "channel_title": "Sprouts",
+              "thumbnail_url": "https://i.ytimg.com/vi/yi0hwFDQTSQ/mqdefault.jpg"
+            },
+            {
+              "title": "Physical and Chemical Changes: Chemistry for Kids - FreeSchool",
+              "duration": "5:24",
+              "video_id": "x49BtB5dOwg",
+              "embed_url": "https://www.youtube.com/embed/x49BtB5dOwg",
+              "video_url": "https://www.youtube.com/watch?v=x49BtB5dOwg",
+              "channel_id": "UCebMFnw6WxozGmqGekJHOJg",
+              "like_count": "11006",
+              "view_count": "2035335",
+              "description": "In chemistry, there are two main types of changes - physical changes and chemical changes. Physical changes affect the shape, ...",
+              "published_at": "2018-05-01T04:50:41Z",
+              "channel_title": "Free School",
+              "thumbnail_url": "https://i.ytimg.com/vi/x49BtB5dOwg/mqdefault.jpg"
+            },
+            {
+              "title": "Energy | The Dr. Binocs Show | Educational Videos For Kids",
+              "duration": "4:14",
+              "video_id": "Q0LBegPWzrg",
+              "embed_url": "https://www.youtube.com/embed/Q0LBegPWzrg",
+              "video_url": "https://www.youtube.com/watch?v=Q0LBegPWzrg",
+              "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+              "like_count": "26548",
+              "view_count": "3995162",
+              "description": "Learn everything about Energy in detail with Dr. Binocs. Hello friends, feeling all energetic? So tune into today's episode and ...",
+              "published_at": "2015-09-16T09:54:08Z",
+              "channel_title": "Peekaboo Kidz",
+              "thumbnail_url": "https://i.ytimg.com/vi/Q0LBegPWzrg/mqdefault.jpg"
+            },
+            {
+              "title": "Microorganisms | The Dr. Binocs Show | Educational Videos For Kids",
+              "duration": "4:07",
+              "video_id": "JZjzQhFG6Ec",
+              "embed_url": "https://www.youtube.com/embed/JZjzQhFG6Ec",
+              "video_url": "https://www.youtube.com/watch?v=JZjzQhFG6Ec",
+              "channel_id": "UCxlJ45KjG4XVcQ_hd8j227A",
+              "like_count": "20757",
+              "view_count": "3697356",
+              "description": "Ever wondered what happens when you look through a microscope? You find a whole new world of Micro organisms! Join Dr.",
+              "published_at": "2015-08-12T13:01:40Z",
+              "channel_title": "Peekaboo Kidz",
+              "thumbnail_url": "https://i.ytimg.com/vi/JZjzQhFG6Ec/mqdefault.jpg"
+            },
+            {
+              "title": "Science for Kids - Nurse Training | Operation Ouch",
+              "duration": "5:15",
+              "video_id": "l1BQg8LkJ4c",
+              "embed_url": "https://www.youtube.com/embed/l1BQg8LkJ4c",
+              "video_url": "https://www.youtube.com/watch?v=l1BQg8LkJ4c",
+              "channel_id": "UCQJDFI9j8UeNoqra37p5OkA",
+              "like_count": "10804",
+              "view_count": "3456838",
+              "description": "Subscribe for more: https://goo.gl/iDvxKs Watch Dr Chris as he trains as a nurse on a ward full of robotic patients. Operation Ouch ...",
+              "published_at": "2019-01-05T16:00:09Z",
+              "channel_title": "Operation Ouch",
+              "thumbnail_url": "https://i.ytimg.com/vi/l1BQg8LkJ4c/mqdefault.jpg"
+            }
+          ],
+          "success": true,
+          "total_videos": 28,
+          "keywords_searched": [
+            "Chemical reactions demonstrations",
+            "Fun chemistry experiments"
+          ]
+        },
+        "youtubeSearchKeywords": [
+          "Chemical reactions demonstrations",
+          "Fun chemistry experiments"
+        ],
+        "additionalReadingOrMedia": [
+          "National Geographic articles on chemistry"
+        ]
+      },
+      "activities": {
+        "groupWork": {
+          "task": "Create a mini-poster that illustrates a chemical reaction, including reactants, products, and observable changes.",
+          "roles": ["Researcher", "Illustrator", "Presenter"],
+          "successCriteria": "Posters must include at least one example of observable change."
+        },
+        "warmUpHook": "Show a short video clip demonstrating a chemical reaction, such as vinegar and baking soda.",
+        "experiments": [],
+        "interactive": [
+          {
+            "name": "Chemical Changes Identification",
+            "time": "10 mins",
+            "type": "Group Discussion",
+            "steps": [
+              "Teacher models a few examples of observable changes.",
+              "Students brainstorm examples from home or everyday life.",
+              "Share their examples in groups."
+            ],
+            "materials": ["Whiteboard", "Markers"],
+            "expectedOutcome": "Students will be able to identify and discuss observable changes that indicate chemical reactions."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "answer": "Sodium + Chlorine → Sodium Chloride",
+            "problem": "Write the word equation for the reaction between sodium and chlorine.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      "assessment": {
+        "homework": "Find and write about a chemical reaction happening in your home.",
+        "exitTicket": "Write down one observable change from today’s lesson and one chemical reaction you’d like to investigate more.",
+        "rubricOrMarkingHints": "Assess based on completeness, clarity, and relevance of examples."
+      },
+      "objectives": "- Identify observable changes indicating a chemical reaction.\t- Explain the difference between reactants and products in chemical equations.\t- Demonstrate how to write word equations from given reaction descriptions.",
+      "sessionTitle": "Introduction to Chemical Reactions",
+      "boardWorkPlan": {
+        "keywords": [
+          "Chemical Reaction",
+          "Reactants",
+          "Products",
+          "Word Equation",
+          "Observable Changes"
+        ],
+        "definitions": [
+          "Chemical Reaction: A process where substances (reactants) transform into different substances (products).",
+          "Reactants: Substances that undergo change.",
+          "Products: Substances formed as a result of a chemical reaction."
+        ],
+        "lawsOrRules": [],
+        "diagramsToDraw": [
+          {
+            "label": "Chemical Reaction Diagram",
+            "instructions": "Draw a diagram showing reactants turning into products with observable changes.",
+            "placeholderTag": "Reactants → Products"
+          }
+        ]
+      },
+      "teachingScript": {
+        "overview": "Today, we will explore the exciting world of chemical reactions. We will learn to identify observable changes, distinguish reactants from products, and practice writing word equations based on given descriptions.",
+        "stepByStep": [
+          {
+            "time": "5 mins",
+            "teacherLines": "Let's start with a simple question: What do you think makes something a chemical reaction?",
+            "studentActivity": "Students share their thoughts; teacher notes key ideas on the board."
+          },
+          {
+            "time": "10 mins",
+            "teacherLines": "Chemical reactions often show observable changes. Can anyone describe some of these changes?",
+            "studentActivity": "Discuss and list observable changes such as color change, gas formation, and temperature change."
+          },
+          {
+            "time": "10 mins",
+            "teacherLines": "Now, let's dive into reactants and products. Who can tell me the difference?",
+            "studentActivity": "Students provide definitions; teacher clarifies and summarizes."
+          },
+          {
+            "time": "10 mins",
+            "teacherLines": "I will give you some reaction descriptions, and we will practice writing word equations together.",
+            "studentActivity": "Students work in pairs to convert descriptions into word equations, sharing with the class."
+          },
+          {
+            "time": "5 mins",
+            "teacherLines": "Great job today! Who can summarize what we learned?",
+            "studentActivity": "Students share their summaries of key points."
+          }
+        ],
+        "transitions": "Now that we understand these concepts, let’s apply our knowledge with some interactive activities."
+      },
+      "differentiation": {
+        "advancedStudents": "Encourage further research on complex reactions and writing balanced chemical equations.",
+        "strugglingLearners": "Provide additional visual aids and simpler examples; pair with supportive peers during group activities.",
+        "multipleLearningStyles": "Incorporate videos, hands-on activities, discussions, and written assignments to cater to diverse learners."
+      },
+      "quickAssessment": {
+        "fiveQandA": [
+          {
+            "a": "A process where reactants change to products.",
+            "q": "What is a chemical reaction?"
+          },
+          {
+            "a": "Substances that undergo change during a reaction.",
+            "q": "What are reactants?"
+          },
+          {
+            "a": "Color change.",
+            "q": "Name an observable change."
+          },
+          {
+            "a": "Products.",
+            "q": "What do we call the substances formed after a reaction?"
+          },
+          {
+            "a": "Carbon Dioxide + Water → Glucose.",
+            "q": "Write the word equation for the reaction of carbon dioxide with water to form glucose."
+          }
+        ],
+        "formatHints": "Responses should be concise and specific."
+      },
+      "detailedExplanations": {
+        "subtopics": [
+          {
+            "title": "Observable Changes",
+            "diagram": "",
+            "example": "Burning wood produces ash, smoke, and heat.",
+            "explanation": "Observable changes during a chemical reaction may include color change, formation of a precipitate, gas production, and temperature change.",
+            "classroomTips": "Use everyday examples students can relate to, like rusting red metals or the fizz from soda.",
+            "comparisonTable": {
+              "rows": [],
+              "headers": [],
+              "useIfRelevant": false
+            }
+          },
+          {
+            "title": "Reactants and Products",
+            "diagram": "",
+            "example": "In the reaction between hydrogen and oxygen, the reactants are H2 and O2, and the product is H2O (water).",
+            "explanation": "Reactants are the starting materials in a reaction, whereas products are what is formed after the reaction.",
+            "classroomTips": "Draw parallels between simple reactions and students’ own experiences, such as baking a cake.",
+            "comparisonTable": {
+              "rows": [["H2 + O2", "H2O"]],
+              "headers": ["Reactants", "Products"],
+              "useIfRelevant": true
+            }
+          },
+          {
+            "title": "Writing Word Equations",
+            "diagram": "",
+            "example": "Hydrogen + Oxygen → Water.",
+            "explanation": "A word equation represents a chemical reaction using the names of the reactants and products.",
+            "classroomTips": "Encourage students to visualize the reaction as a story that changes the characters.",
+            "comparisonTable": {
+              "rows": [],
+              "headers": [],
+              "useIfRelevant": false
+            }
+          }
+        ],
+        "formulasAndDerivations": []
+      }
+    }
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Chemical Reactions and Equations",
+    "planned_sessions": 4,
+    "input_hash": "314679813ad3ed8f2f5ca9ed27ba89610070160db93d4d6367e631283d98c8aa",
+    "session_number": 2,
+    "session_title": "Chemical Equations and Balancing",
+    "kp_codes": [
+      "cbse10_science_045f9a_kp04",
+      "cbse10_science_259b6e_kp05",
+      "cbse10_science_6b35fa_kp06",
+      "cbse10_science_56a9bc_kp07"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on the formulation and balancing of chemical equations, emphasizing the conversion of word equations to skeletal equations. Additionally, the importance of balancing equations in accordance with the Law of Conservation of Mass will be discussed, alongside practical skills in balancing chemical equations through the hit-and-trial method and annotating with state symbols and reaction conditions.",
+      "objectives": [
+        "Introduce the process of writing skeletal chemical equations from word equations.",
+        "Explain the significance of balancing chemical equations based on the Law of Conservation of Mass.",
+        "Demonstrate the use of the hit-and-trial method to balance chemical equations.",
+        "Annotate chemical equations with appropriate state symbols and reaction conditions."
+      ]
+    },
+    "session_content": {
+      "class": "Class 10",
+      "wrapUp": {
+        "summary": [
+          "We learned to convert word equations to skeletal equations.",
+          "The importance of balancing equations to align with the Law of Conservation of Mass.",
+          "We practiced balancing equations using the hit-and-trial method."
+        ],
+        "closureActivity": "Write a summary of today’s lesson in your own words.",
+        "engagementQuestions": [
+          "Why is it important to have balanced chemical equations?",
+          "Can you give examples of reactions where the conservation of mass applies?"
+        ]
+      },
+      "subject": "Science",
+      "summary": "This session focuses on the formulation and balancing of chemical equations, emphasizing the conversion of word equations to skeletal equations. Additionally, the importance of balancing equations in accordance with the Law of Conservation of Mass will be discussed, alongside practical skills in balancing chemical equations through the hit-and-trial method and annotating with state symbols and reaction conditions.",
+      "duration": 36.994457960128784,
+      "resources": {
+        "materials": ["Whiteboard", "Markers", "Textbook"],
+        "references": ["NCERT Science Textbook for Class 10"],
+        "youtubeVideos": {
+          "data": [
+            {
+              "title": "How to Balance Chemical Equations in 5 Easy Steps: Balancing Equations Tutorial",
+              "duration": "5:01",
+              "video_id": "zmdxMlb88Fs",
+              "embed_url": "https://www.youtube.com/embed/zmdxMlb88Fs",
+              "video_url": "https://www.youtube.com/watch?v=zmdxMlb88Fs",
+              "channel_id": "UCaUF73YX-uQTGwDB20I3n3g",
+              "like_count": "135523",
+              "view_count": "8076183",
+              "description": "Balancing Chemical Equations in Five Easy Steps. My new book on balancing equations is now available!",
+              "published_at": "2015-11-24T23:24:00Z",
+              "channel_title": "Wayne Breslyn (Dr. B.)",
+              "thumbnail_url": "https://i.ytimg.com/vi/zmdxMlb88Fs/mqdefault.jpg"
+            },
+            {
+              "title": "Balancing Chemical Equations Step by Step Practice Problems | How to Pass Chemistry",
+              "duration": "6:23",
+              "video_id": "jy6F0Lbvjm8",
+              "embed_url": "https://www.youtube.com/embed/jy6F0Lbvjm8",
+              "video_url": "https://www.youtube.com/watch?v=jy6F0Lbvjm8",
+              "channel_id": "UC88Pezsxv3IUMAoQGP2w07w",
+              "like_count": "12238",
+              "view_count": "747460",
+              "description": "Life can be hard to balance, but balancing chemical equations doesn't have to be! In this video, you will learn how to balance out ...",
+              "published_at": "2017-11-15T20:00:03Z",
+              "channel_title": "Melissa Maribel",
+              "thumbnail_url": "https://i.ytimg.com/vi/jy6F0Lbvjm8/mqdefault.jpg"
+            },
+            {
+              "title": "Balancing Chemical Equations",
+              "duration": "4:18",
+              "video_id": "X7ckfeRjjvI",
+              "embed_url": "https://www.youtube.com/embed/X7ckfeRjjvI",
+              "video_url": "https://www.youtube.com/watch?v=X7ckfeRjjvI",
+              "channel_id": "UC0cd_-e49hZpWLH3UIwoWRA",
+              "like_count": "8322",
+              "view_count": "663945",
+              "description": "Atoms don't just appear and disappear into thin air, you silly goose. What are you, a magician? When we have a chemical ...",
+              "published_at": "2015-07-02T15:17:24Z",
+              "channel_title": "Professor Dave Explains",
+              "thumbnail_url": "https://i.ytimg.com/vi/X7ckfeRjjvI/mqdefault.jpg"
+            }
+          ],
+          "success": true,
+          "total_videos": 3,
+          "keywords_searched": ["balancing chemical equations"]
+        },
+        "youtubeSearchKeywords": ["balancing chemical equations"],
+        "additionalReadingOrMedia": [
+          "Khan Academy videos on chemical equations"
+        ]
+      },
+      "activities": {
+        "groupWork": {
+          "task": "Work in groups to balance the provided equations and annotate with state symbols.",
+          "roles": ["Leader", "Researcher", "Presenter"],
+          "successCriteria": "All equations are balanced and correctly annotated."
+        },
+        "warmUpHook": "Start with a quick quiz on the definitions of reactants and products.",
+        "experiments": [],
+        "interactive": [
+          {
+            "name": "Word to Chemical Equation Conversion",
+            "time": "10 mins",
+            "type": "Group Activity",
+            "steps": [
+              "Split into groups.",
+              "Convert a set of word equations into skeletal equations.",
+              "Share findings with the class."
+            ],
+            "materials": ["List of word equations"],
+            "expectedOutcome": "Students will successfully convert word equations."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "answer": "2 C4H10 + 13 O2 → 8 CO2 + 10 H2O",
+            "problem": "Balance the equation: _ C4H10 + _ O2 → _ CO2 + _ H2O",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      "assessment": {
+        "homework": "Complete practice problems on balancing equations from the textbook.",
+        "exitTicket": "Write 2 things you learned today about balancing equations.",
+        "rubricOrMarkingHints": "Check understanding and accuracy in answers."
+      },
+      "objectives": "- Introduce the process of writing skeletal chemical equations from word equations.\t- Explain the significance of balancing chemical equations based on the Law of Conservation of Mass.\t- Demonstrate the use of the hit-and-trial method to balance chemical equations.\t- Annotate chemical equations with appropriate state symbols and reaction conditions.",
+      "sessionTitle": "Chemical Equations and Balancing",
+      "boardWorkPlan": {
+        "keywords": [
+          "Chemical Equation",
+          "Skeletal Equation",
+          "Balanced Equation",
+          "Reactants",
+          "Products",
+          "State Symbols",
+          "Law of Conservation of Mass"
+        ],
+        "definitions": [
+          "Chemical Equation: A symbolic representation of a chemical reaction.",
+          "Skeletal Equation: An equation that shows the reactants and products but not their amounts."
+        ],
+        "lawsOrRules": [
+          {
+            "name": "Law of Conservation of Mass",
+            "notation": "Reactants = Products",
+            "statement": "Matter cannot be created or destroyed in a chemical reaction."
+          }
+        ],
+        "diagramsToDraw": [
+          {
+            "label": "Balancing Chemical Equations",
+            "instructions": "Draw an example of an unbalanced and a balanced equation for clarity.",
+            "placeholderTag": "Example Diagram"
+          }
+        ]
+      },
+      "teachingScript": {
+        "overview": "In this session, students will learn how to convert word equations into skeletal chemical equations, understand the necessity of balancing these equations, and practice the hit-and-trial method for balancing. They'll also annotate equations with state symbols and conditions.",
+        "stepByStep": [
+          {
+            "time": "5 mins",
+            "teacherLines": "Let's begin with an introduction to chemical equations. Who can tell me what a chemical equation is?",
+            "studentActivity": "Students discuss and share their understanding of chemical equations."
+          },
+          {
+            "time": "10 mins",
+            "teacherLines": "Now, we'll convert a word equation into a skeletal equation. Observe closely how this is done.",
+            "studentActivity": "Students follow along and write down the skeletal equations from given word equations."
+          },
+          {
+            "time": "10 mins",
+            "teacherLines": "Next, let’s discuss the Law of Conservation of Mass and why balancing equations is essential. Can someone explain this law?",
+            "studentActivity": "Students share their thoughts and the teacher refines their understanding."
+          },
+          {
+            "time": "10 mins",
+            "teacherLines": "Now, let’s practice balancing some equations using the hit-and-trial method together.",
+            "studentActivity": "Students attempt to balance a few chemical equations as a class."
+          },
+          {
+            "time": "5 mins",
+            "teacherLines": "Finally, I will show you how to annotate equations with state symbols and conditions.",
+            "studentActivity": "Students will annotate equations with provided state symbols."
+          }
+        ],
+        "transitions": "Transition between sections smoothly by summarizing the previous segment before moving to the next."
+      },
+      "differentiation": {
+        "advancedStudents": "Challenge them with more complex reactions to balance.",
+        "strugglingLearners": "Provide additional one-on-one help with example equations.",
+        "multipleLearningStyles": "Utilize visual aids, group discussions, and hands-on activities."
+      },
+      "quickAssessment": {
+        "fiveQandA": [
+          {
+            "a": "A symbolic representation of a chemical reaction without balancing.",
+            "q": "What is a skeletal equation?"
+          },
+          {
+            "a": "To follow the Law of Conservation of Mass.",
+            "q": "Why must we balance chemical equations?"
+          },
+          {
+            "a": "Gas.",
+            "q": "What does (g) represent in state symbols?"
+          },
+          {
+            "a": "A trial method to find coefficients that balance an equation.",
+            "q": "Explain the hit-and-trial method."
+          },
+          {
+            "a": "H2 + O2 → H2O.",
+            "q": "Write the skeletal equation for water formation."
+          }
+        ],
+        "formatHints": "Questions should test understanding of key concepts covered."
+      },
+      "detailedExplanations": {
+        "subtopics": [
+          {
+            "title": "Write Skeletal Chemical Equations",
+            "diagram": "",
+            "example": "Water formation: H2 + O2 → H2O",
+            "explanation": "Learn to represent chemical reactions using symbols.",
+            "classroomTips": "Use simple reactions to illustrate skeletal equations.",
+            "comparisonTable": {
+              "rows": [],
+              "headers": [],
+              "useIfRelevant": false
+            }
+          },
+          {
+            "title": "Justify the Need to Balance Equations",
+            "diagram": "",
+            "example": "2H2 + O2 → 2H2O shows equal atoms on both sides.",
+            "explanation": "Balancing ensures mass is conserved in reactions.",
+            "classroomTips": "Highlight the importance of reactants equaling products.",
+            "comparisonTable": {
+              "rows": [],
+              "headers": [],
+              "useIfRelevant": false
+            }
+          },
+          {
+            "title": "Balance Chemical Equations Using the Hit-and-Trial Method",
+            "diagram": "",
+            "example": "C + O2 → CO2 become 1C + 1O2 → 1CO2.",
+            "explanation": "Use trial and error to find coefficients that balance an equation.",
+            "classroomTips": "Encourage students to try different numbers.",
+            "comparisonTable": {
+              "rows": [],
+              "headers": [],
+              "useIfRelevant": false
+            }
+          },
+          {
+            "title": "Annotate Equations with State Symbols",
+            "diagram": "",
+            "example": "H2(g) + O2(g) → H2O(l)",
+            "explanation": "Add state symbols (s, l, g, aq) to show the physical state.",
+            "classroomTips": "Provide a chart of state symbols for reference.",
+            "comparisonTable": {
+              "rows": [],
+              "headers": [],
+              "useIfRelevant": false
+            }
+          }
+        ],
+        "formulasAndDerivations": []
+      }
+    }
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Chemical Reactions and Equations",
+    "planned_sessions": 4,
+    "input_hash": "314679813ad3ed8f2f5ca9ed27ba89610070160db93d4d6367e631283d98c8aa",
+    "session_number": 3,
+    "session_title": "Types of Chemical Reactions",
+    "kp_codes": [
+      "cbse10_science_7ce689_kp08",
+      "cbse10_science_264f2d_kp09",
+      "cbse10_science_3cf305_kp10",
+      "cbse10_science_a13aff_kp11"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on the classification of chemical reactions, emphasizing the four main types: combination, decomposition, displacement, and double displacement. Teachers will guide students in analyzing and predicting the outcomes of these reactions using valency and the reactivity series.",
+      "objectives": [
+        "Classify various chemical reactions as combination, decomposition, displacement, or double displacement.",
+        "Demonstrate the ability to predict products of combination reactions using valency.",
+        "Analyze given conditions to identify the type of decomposition reaction and predict its products.",
+        "Apply the reactivity series to predict the outcomes of displacement reactions."
+      ]
+    },
+    "session_content": null
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Chemical Reactions and Equations",
+    "planned_sessions": 4,
+    "input_hash": "314679813ad3ed8f2f5ca9ed27ba89610070160db93d4d6367e631283d98c8aa",
+    "session_number": 4,
+    "session_title": "Advanced Concepts in Chemical Reactions",
+    "kp_codes": [
+      "cbse10_science_1f4d4d_kp12",
+      "cbse10_science_ea87df_kp13",
+      "cbse10_science_c67605_kp14",
+      "cbse10_science_c7cf42_kp15",
+      "cbse10_science_58240b_kp16",
+      "cbse10_science_a41159_kp17"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on advanced concepts of chemical reactions, emphasizing the analysis of double displacement reactions, heat changes, and oxidation-reduction processes. Teachers will explore the critical distinctions between exothermic and endothermic reactions while addressing real-world applications such as corrosion and rancidity.",
+      "objectives": [
+        "Analyze double displacement reactions to predict precipitate formation.",
+        "Classify chemical reactions as exothermic or endothermic based on provided data.",
+        "Identify oxidation and reduction processes by examining oxygen and hydrogen transfer.",
+        "Explain the concept of corrosion and propose effective prevention methods."
+      ]
+    },
+    "session_content": null
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Acids, Bases and Salts",
+    "planned_sessions": 5,
+    "input_hash": "06c69a36b928f8c2b43f7b6411453ccad1a4e069d8aeee5ba2f491fa3fffc26e",
+    "session_number": 1,
+    "session_title": "Introduction to Acids and Bases",
+    "kp_codes": [
+      "cbse10_science_0faa1e_kp01",
+      "cbse10_science_a35ec9_kp02",
+      "cbse10_science_c939fd_kp03"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on introducing the fundamental concepts of acids and bases, emphasizing their definitions and characteristics in aqueous solutions. Teachers will cover methods for identifying acids and bases using litmus and natural indicators, as well as olfactory indicators for distinguishing between acidic and basic solutions.",
+      "objectives": [
+        "Recall definitions of acids and bases in aqueous solution.",
+        "Identify acids and bases using litmus and natural indicators.",
+        "Demonstrate the use of olfactory indicators to distinguish between acidic and basic solutions."
+      ]
+    },
+    "session_content": null
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Acids, Bases and Salts",
+    "planned_sessions": 5,
+    "input_hash": "06c69a36b928f8c2b43f7b6411453ccad1a4e069d8aeee5ba2f491fa3fffc26e",
+    "session_number": 2,
+    "session_title": "Ionisation and Safe Practices",
+    "kp_codes": [
+      "cbse10_science_858255_kp04",
+      "cbse10_science_3defdd_kp05",
+      "cbse10_science_d9042f_kp06",
+      "cbse10_science_877a62_kp07"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on the ionisation of acids and bases in water and the importance of safe practices when diluting these substances. Teachers will cover the prediction of products from reactions involving acids and bases with metals, emphasizing understanding and practical applications of these chemical principles. The scope includes both theoretical concepts and practical safety measures in the laboratory context.",
+      "objectives": [
+        "Explain the ionisation process of acids and bases when dissolved in water.",
+        "Demonstrate safe methods for diluting acids and bases with water.",
+        "Predict the products of reactions between acids and active metals.",
+        "Predict the products of reactions between bases and active metals."
+      ]
+    },
+    "session_content": null
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Acids, Bases and Salts",
+    "planned_sessions": 5,
+    "input_hash": "06c69a36b928f8c2b43f7b6411453ccad1a4e069d8aeee5ba2f491fa3fffc26e",
+    "session_number": 3,
+    "session_title": "Reactions and Neutralisation",
+    "kp_codes": [
+      "cbse10_science_85c650_kp08",
+      "cbse10_science_3c2f89_kp09",
+      "cbse10_science_407d2b_kp10"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on the concept of pH and its significance in various contexts, including acidity and basicity. Teachers will guide students in interpreting pH values with a universal indicator and relating them to the strength of acids and bases. Additionally, the session will cover the implications of pH in real-world scenarios such as tooth decay management and soil treatment for crops.",
+      "objectives": [
+        "Interpret pH values using a universal indicator.",
+        "Relate pH qualitatively to the strength of acids and bases.",
+        "Analyze the effect of dilution on the pH of an acid or base.",
+        "Apply the concept of pH to real-life situations, including tooth decay and agricultural soil treatment."
+      ]
+    },
+    "session_content": null
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Acids, Bases and Salts",
+    "planned_sessions": 5,
+    "input_hash": "06c69a36b928f8c2b43f7b6411453ccad1a4e069d8aeee5ba2f491fa3fffc26e",
+    "session_number": 4,
+    "session_title": "Understanding pH and Its Implications",
+    "kp_codes": [
+      "cbse10_science_624a60_kp11",
+      "cbse10_science_4697a6_kp12",
+      "cbse10_science_6931ab_kp13",
+      "cbse10_science_b31edb_kp15",
+      "cbse10_science_95346b_kp16"
+    ],
+    "session_summary": {
+      "summary": "This session focuses on advanced concepts related to acids, bases, and salts, emphasizing their chemical properties and applications. Teachers will guide students in analyzing the effects of acidity and basicity in various contexts, understanding key chemical processes, and making connections between theoretical concepts and practical uses.",
+      "objectives": [
+        "Explain the concept of water of crystallisation and its effects upon heating.",
+        "Describe the chloro-alkali process for the production of sodium hydroxide and its applications.",
+        "Analyze the acidity or basicity of salt solutions based on their parent acids and bases.",
+        "Identify the parent acid and base of a given salt from its chemical formula."
+      ]
+    },
+    "session_content": null
+  },
+  {
+    "board_name": "CBSE",
+    "class": "Class 10",
+    "subject_name": "Science",
+    "chapter_name": "Acids, Bases and Salts",
+    "planned_sessions": 5,
+    "input_hash": "06c69a36b928f8c2b43f7b6411453ccad1a4e069d8aeee5ba2f491fa3fffc26e",
+    "session_number": 5,
+    "session_title": "Advanced Concepts in Acids, Bases, and Salts",
+    "kp_codes": [
+      "cbse10_science_da5c31_kp14",
+      "cbse10_science_0cc92d_kp17",
+      "cbse10_science_837054_kp18",
+      "cbse10_science_b62959_kp19",
+      "cbse10_science_ed7b5c_kp20",
+      "cbse10_science_2b7b0d_kp21",
+      "cbse10_science_ffeb65_kp22",
+      "cbse10_science_908917_kp23",
+      "cbse10_science_436b72_kp24"
+    ],
+    "session_summary": null,
+    "session_content": null
+  }
+]

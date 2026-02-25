@@ -1,122 +1,122 @@
 [
   {
-    "class_name": "Class 1",
-    "subject_name": "Mathematics",
-    "chapter_number": 1,
-    "title": "Numbers",
-    "description": "Introduction to numbers and counting",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 1",
+    "class_name": "Class 9",
     "subject_name": "English",
     "chapter_number": 1,
-    "title": "Alphabet and Sounds",
-    "description": "Basics of English alphabet",
+    "title": "The Fun They Had",
+    "description": "A story about future education and technology",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 1",
-    "subject_name": "Environmental Studies",
-    "chapter_number": 1,
-    "title": "Myself",
-    "description": "Understanding self and surroundings",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 2",
-    "subject_name": "Mathematics",
-    "chapter_number": 1,
-    "title": "Addition and Subtraction",
-    "description": "Basics of arithmetic",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 2",
+    "class_name": "Class 9",
     "subject_name": "English",
-    "chapter_number": 1,
-    "title": "Sentences",
-    "description": "Understanding simple sentences",
+    "chapter_number": 2,
+    "title": "The Sound of Music",
+    "description": "Biographical accounts of musicians",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 2",
-    "subject_name": "Environmental Studies",
-    "chapter_number": 1,
-    "title": "Plants Around Us",
-    "description": "Types and uses of plants",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 3,
+    "title": "The Little Girl",
+    "description": "Story about father-daughter relationship",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 6",
-    "subject_name": "Mathematics",
-    "chapter_number": 1,
-    "title": "Knowing Our Numbers",
-    "description": "Large numbers and comparison",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 4,
+    "title": "A Truly Beautiful Mind",
+    "description": "Biography of Albert Einstein",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 6",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Food: Where Does It Come From?",
-    "description": "Sources and components of food",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 5,
+    "title": "The Snake and the Mirror",
+    "description": "A humorous story about a doctor's encounter",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 6",
-    "subject_name": "Social Science",
-    "chapter_number": 1,
-    "title": "What, Where, How and When?",
-    "description": "Introduction to history and timeline",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 6,
+    "title": "My Childhood",
+    "description": "Extract from APJ Abdul Kalam's autobiography",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 7",
-    "subject_name": "Mathematics",
-    "chapter_number": 1,
-    "title": "Integers",
-    "description": "Understanding positive and negative numbers",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 7,
+    "title": "Reach for the Top",
+    "description": "Stories of successful women achievers",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 7",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Nutrition in Plants",
-    "description": "Modes and process of nutrition",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 8,
+    "title": "Kathmandu",
+    "description": "A travelogue about the capital of Nepal",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 7",
-    "subject_name": "Social Science",
-    "chapter_number": 1,
-    "title": "Tracing Changes Through a Thousand Years",
-    "description": "Historical developments in medieval India",
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 9,
+    "title": "If I Were You",
+    "description": "A one-act play with suspense and surprise",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 8",
-    "subject_name": "Mathematics",
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
     "chapter_number": 1,
-    "title": "Rational Numbers",
-    "description": "Operations and properties of rational numbers",
+    "title": "Do Bailon Ki Katha",
+    "description": "Premchand ki kahani - do bailon ki dosti",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 8",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Crop Production & Management",
-    "description": "Farming practices and crop cycle",
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 2,
+    "title": "Lhasa Ki Or",
+    "description": "Rahul Sankrityayan ka yatra vritant",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 8",
-    "subject_name": "Social Science",
-    "chapter_number": 1,
-    "title": "How, When & Where",
-    "description": "Colonial era historical understanding",
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 3,
+    "title": "Upbhoktavad Ki Sanskriti",
+    "description": "Aadhunik samaj par nibandh",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 4,
+    "title": "Sanvle Sapnon Ki Yaad",
+    "description": "Jainendraa Kumar ka sansmaran",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 5,
+    "title": "Nana Saheb Ki Putri Devi Maina Ko Bhasm Kar Diya Gaya",
+    "description": "Chapakannni ka saaksi bhaav",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 6,
+    "title": "Premchand Ke Phate Joote",
+    "description": "Harishankar Parsai ka vyangya lekh",
     "board_name": "CBSE"
   },
   {
@@ -129,6 +129,118 @@
   },
   {
     "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 2,
+    "title": "Polynomials",
+    "description": "Algebraic expressions and identities",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 3,
+    "title": "Coordinate Geometry",
+    "description": "Cartesian plane and plotting points",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 4,
+    "title": "Linear Equations in Two Variables",
+    "description": "Graphical and algebraic solutions",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 5,
+    "title": "Introduction to Euclid's Geometry",
+    "description": "Basic geometric concepts and axioms",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 6,
+    "title": "Lines and Angles",
+    "description": "Properties of angles and parallel lines",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 7,
+    "title": "Triangles",
+    "description": "Congruence and properties of triangles",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 8,
+    "title": "Quadrilaterals",
+    "description": "Properties of parallelograms and other quadrilaterals",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 9,
+    "title": "Areas of Parallelograms and Triangles",
+    "description": "Area calculations on the same base",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 10,
+    "title": "Circles",
+    "description": "Basic properties and chord theorems",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 11,
+    "title": "Constructions",
+    "description": "Geometric constructions using compass and ruler",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 12,
+    "title": "Heron's Formula",
+    "description": "Area of triangles using Heron's formula",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 13,
+    "title": "Surface Areas and Volumes",
+    "description": "Mensuration of 3D shapes",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 14,
+    "title": "Statistics",
+    "description": "Data representation and central tendency",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 15,
+    "title": "Probability",
+    "description": "Introduction to probability concepts",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
     "subject_name": "Science",
     "chapter_number": 1,
     "title": "Matter in Our Surroundings",
@@ -137,250 +249,226 @@
   },
   {
     "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 2,
+    "title": "Is Matter Around Us Pure",
+    "description": "Mixtures, solutions, and separation techniques",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 3,
+    "title": "Atoms and Molecules",
+    "description": "Atomic structure and chemical formulae",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 4,
+    "title": "Structure of the Atom",
+    "description": "Discovery of subatomic particles",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 5,
+    "title": "The Fundamental Unit of Life",
+    "description": "Cell structure and functions",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 6,
+    "title": "Tissues",
+    "description": "Plant and animal tissues",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 7,
+    "title": "Diversity in Living Organisms",
+    "description": "Classification of living organisms",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 8,
+    "title": "Motion",
+    "description": "Distance, displacement, and equations of motion",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 9,
+    "title": "Force and Laws of Motion",
+    "description": "Newton's laws and applications",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 10,
+    "title": "Gravitation",
+    "description": "Universal law of gravitation and free fall",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 11,
+    "title": "Work and Energy",
+    "description": "Work, energy, and power concepts",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 12,
+    "title": "Sound",
+    "description": "Production, propagation, and properties of sound",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 13,
+    "title": "Why Do We Fall Ill",
+    "description": "Health, disease, and immunity",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 14,
+    "title": "Natural Resources",
+    "description": "Air, water, soil, and biogeochemical cycles",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 15,
+    "title": "Improvement in Food Resources",
+    "description": "Agricultural practices and crop management",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
     "subject_name": "Social Science",
     "chapter_number": 1,
     "title": "The French Revolution",
-    "description": "Beginning of modern era",
+    "description": "Beginning of modern era in Europe",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 1,
-    "title": "Real Numbers",
-    "description": "Fundamental theorem of arithmetic, Euclid’s division lemma, and properties of real numbers.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 2,
-    "title": "Polynomials",
-    "description": "Zeros of polynomials and relationship between zeros and coefficients.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 3,
-    "title": "Pair of Linear Equations in Two Variables",
-    "description": "Graphical and algebraic methods of solving linear equations in two variables.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 4,
-    "title": "Quadratic Equations",
-    "description": "Solutions of quadratic equations using factorization and quadratic formula.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 5,
-    "title": "Arithmetic Progressions",
-    "description": "Nth term and sum of terms of an arithmetic progression.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 6,
-    "title": "Triangles",
-    "description": "Similarity of triangles and applications of Pythagoras theorem.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 7,
-    "title": "Coordinate Geometry",
-    "description": "Distance formula, section formula, and area of a triangle.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 8,
-    "title": "Introduction to Trigonometry",
-    "description": "Trigonometric ratios, identities, and their applications.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 9,
-    "title": "Some Applications of Trigonometry",
-    "description": "Heights and distances using trigonometric ratios.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 10,
-    "title": "Circles",
-    "description": "Tangents to a circle and their properties.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 11,
-    "title": "Constructions",
-    "description": "Geometrical constructions involving division of line segments and tangents.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 12,
-    "title": "Areas Related to Circles",
-    "description": "Perimeter and area of circles, sectors, and segments.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 13,
-    "title": "Surface Areas and Volumes",
-    "description": "Surface area and volume of combinations of solids.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 14,
-    "title": "Statistics",
-    "description": "Mean, median, mode, and graphical representation of data.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Mathematics",
-    "chapter_number": 15,
-    "title": "Probability",
-    "description": "Basic concepts of probability and simple problems.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Chemical Reactions and Equations",
-    "description": "Introduction to chemical reactions, types of reactions, balancing equations, and effects of oxidation and reduction.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 2,
-    "title": "Acids, Bases and Salts",
-    "description": "Properties of acids, bases and salts, pH scale, common salts and their uses in daily life.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 3,
-    "title": "Metals and Non-metals",
-    "description": "Physical and chemical properties of metals and non-metals, corrosion, extraction of metals and their uses.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 4,
-    "title": "Carbon and its Compounds",
-    "description": "Covalent bonding, carbon compounds, hydrocarbons, functional groups, ethanol and ethanoic acid.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 5,
-    "title": "Life Processes",
-    "description": "Nutrition, respiration, transportation and excretion processes in plants and animals.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 6,
-    "title": "Control and Coordination",
-    "description": "Nervous system, hormonal coordination in plants and animals, reflex actions.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 7,
-    "title": "How do Organisms Reproduce",
-    "description": "Modes of reproduction, sexual and asexual reproduction, human reproductive system.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 8,
-    "title": "Heredity and Evolution",
-    "description": "Mendel’s experiments, inheritance patterns, acquired and inherited traits, evolution.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 9,
-    "title": "Light – Reflection and Refraction",
-    "description": "Reflection of light, refraction, image formation by mirrors and lenses, applications in daily life.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 10,
-    "title": "The Human Eye and the Colourful World",
-    "description": "Structure of human eye, defects of vision, dispersion, scattering of light.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 11,
-    "title": "Electricity",
-    "description": "Electric current, potential difference, Ohm’s law, electrical energy and power.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 12,
-    "title": "Magnetic Effects of Electric Current",
-    "description": "Magnetic field, electromagnetic induction, electric motors and generators.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 13,
-    "title": "Our Environment",
-    "description": "Ecosystems, food chains, energy flow, environmental issues and conservation.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 14,
-    "title": "Sources of Energy",
-    "description": "Renewable and non-renewable energy sources, thermal power, solar energy, biogas.",
-    "board_name": "CBSE"
-  },
-  {
-    "class_name": "Class 10",
+    "class_name": "Class 9",
     "subject_name": "Social Science",
-    "chapter_number": 1,
-    "title": "Resources and Development",
-    "description": "Types and use of natural resources",
+    "chapter_number": 2,
+    "title": "Socialism in Europe and the Russian Revolution",
+    "description": "Rise of socialism and Bolshevik revolution",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 3,
+    "title": "Nazism and the Rise of Hitler",
+    "description": "Nazi Germany and World War II",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 4,
+    "title": "Forest Society and Colonialism",
+    "description": "Impact of colonial rule on forests",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 5,
+    "title": "Pastoralists in the Modern World",
+    "description": "Nomadic communities and changes",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 6,
+    "title": "India and the Contemporary World",
+    "description": "India's role in global affairs",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 7,
+    "title": "Constitutional Design",
+    "description": "Making of Indian Constitution",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 8,
+    "title": "Electoral Politics",
+    "description": "Elections and democratic process",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 9,
+    "title": "Working of Institutions",
+    "description": "Legislature, executive, and judiciary",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 10,
+    "title": "Democratic Rights",
+    "description": "Fundamental rights in democracy",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 11,
+    "title": "The Story of Village Palampur",
+    "description": "Introduction to economic concepts",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 12,
+    "title": "People as Resource",
+    "description": "Human capital formation",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 13,
+    "title": "Poverty as a Challenge",
+    "description": "Poverty measurement and alleviation",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 14,
+    "title": "Food Security in India",
+    "description": "PDS and food management",
     "board_name": "CBSE"
   },
   {
@@ -388,7 +476,7 @@
     "subject_name": "English",
     "chapter_number": 1,
     "title": "A Letter to God",
-    "description": "A story highlighting faith, hope, and human values.",
+    "description": "A story highlighting faith and hope",
     "board_name": "CBSE"
   },
   {
@@ -396,7 +484,7 @@
     "subject_name": "English",
     "chapter_number": 2,
     "title": "Nelson Mandela: Long Walk to Freedom",
-    "description": "Autobiographical account of Nelson Mandela’s struggle for freedom.",
+    "description": "Autobiographical account of Mandela's struggle",
     "board_name": "CBSE"
   },
   {
@@ -404,7 +492,7 @@
     "subject_name": "English",
     "chapter_number": 3,
     "title": "Two Stories About Flying",
-    "description": "Stories about fear, courage, and self-confidence.",
+    "description": "Stories about fear and courage",
     "board_name": "CBSE"
   },
   {
@@ -412,119 +500,983 @@
     "subject_name": "English",
     "chapter_number": 4,
     "title": "From the Diary of Anne Frank",
-    "description": "Diary entries depicting life during World War II.",
+    "description": "Diary entries during World War II",
     "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
     "subject_name": "English",
     "chapter_number": 5,
-    "title": "The Hundred Dresses",
-    "description": "Story highlighting bullying, kindness, and empathy.",
+    "title": "The Hundred Dresses - I",
+    "description": "Story highlighting bullying and empathy",
     "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
     "subject_name": "English",
     "chapter_number": 6,
-    "title": "Glimpses of India",
-    "description": "Cultural diversity and traditions of India.",
+    "title": "The Hundred Dresses - II",
+    "description": "Continuation of the story",
     "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
     "subject_name": "English",
     "chapter_number": 7,
-    "title": "Mijbil the Otter",
-    "description": "An amusing account of the author’s pet otter.",
+    "title": "Glimpses of India",
+    "description": "Cultural diversity and traditions",
     "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
     "subject_name": "English",
     "chapter_number": 8,
-    "title": "Madam Rides the Bus",
-    "description": "A story about curiosity, independence, and life lessons.",
+    "title": "Mijbil the Otter",
+    "description": "An amusing account of a pet otter",
     "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
     "subject_name": "English",
     "chapter_number": 9,
-    "title": "The Sermon at Benares",
-    "description": "Teachings of Buddha on suffering and impermanence.",
+    "title": "Madam Rides the Bus",
+    "description": "Story about curiosity and independence",
     "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
     "subject_name": "English",
     "chapter_number": 10,
-    "title": "The Proposal",
-    "description": "A humorous play about marriage and materialism.",
+    "title": "The Sermon at Benares",
+    "description": "Teachings of Buddha on suffering",
     "board_name": "CBSE"
   },
   {
-    "class_name": "Class 1",
+    "class_name": "Class 10",
     "subject_name": "English",
-    "chapter_number": 1,
-    "title": "My Family",
-    "description": "Simple comprehension and vocabulary",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 6",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Diversity in Living Organisms",
-    "description": "Introduction to classification",
-    "board_name": "ICSE"
-  },
-  {
-    "class_name": "Class 9",
-    "subject_name": "Physics",
-    "chapter_number": 1,
-    "title": "Motion",
-    "description": "Distance, displacement, speed and velocity",
-    "board_name": "ICSE"
+    "chapter_number": 11,
+    "title": "The Proposal",
+    "description": "A humorous play about marriage",
+    "board_name": "CBSE"
   },
   {
     "class_name": "Class 10",
-    "subject_name": "Chemistry",
+    "subject_name": "Hindi",
     "chapter_number": 1,
-    "title": "Periodic Table",
-    "description": "Modern periodic law and trends",
-    "board_name": "ICSE"
+    "title": "Surdas Ke Pad",
+    "description": "Surdas ki bhakti kavita",
+    "board_name": "CBSE"
   },
   {
-    "class_name": "Class 1",
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 2,
+    "title": "Ram Lakshman Parshuram Samvad",
+    "description": "Tulsidas ka kavya ansh",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 3,
+    "title": "Devsen Ka Geet",
+    "description": "Jaishankar Prasad ki kavita",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 4,
+    "title": "Utsah Aur At Nahin Rahi Hai",
+    "description": "Suryakant Tripathi Nirala ki kavitaen",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 5,
+    "title": "Yeh Dantkathayen",
+    "description": "Yash Malviya ka aadhunik kavita",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 6,
+    "title": "Madhur Madhur Mere Deepak Jal",
+    "description": "Mahadevi Verma ki kavita",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 7,
+    "title": "Balgobin Bhagat",
+    "description": "Ramsevak Bajpai ki kahani",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 8,
+    "title": "Netaji Ka Chasma",
+    "description": "Swayam Prakash ki kahani",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Real Numbers",
+    "description": "Fundamental theorem of arithmetic and Euclid's division lemma",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 2,
+    "title": "Polynomials",
+    "description": "Zeros of polynomials and relationship between zeros and coefficients",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 3,
+    "title": "Pair of Linear Equations in Two Variables",
+    "description": "Graphical and algebraic methods of solving linear equations",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 4,
+    "title": "Quadratic Equations",
+    "description": "Solutions using factorization and quadratic formula",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 5,
+    "title": "Arithmetic Progressions",
+    "description": "Nth term and sum of terms of an arithmetic progression",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 6,
+    "title": "Triangles",
+    "description": "Similarity of triangles and Pythagoras theorem",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 7,
+    "title": "Coordinate Geometry",
+    "description": "Distance formula, section formula, and area of triangle",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 8,
+    "title": "Introduction to Trigonometry",
+    "description": "Trigonometric ratios and identities",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 9,
+    "title": "Some Applications of Trigonometry",
+    "description": "Heights and distances using trigonometric ratios",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 10,
+    "title": "Circles",
+    "description": "Tangents to a circle and their properties",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 11,
+    "title": "Constructions",
+    "description": "Division of line segments and tangent constructions",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 12,
+    "title": "Areas Related to Circles",
+    "description": "Perimeter and area of circles, sectors, and segments",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 13,
+    "title": "Surface Areas and Volumes",
+    "description": "Surface area and volume of combinations of solids",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 14,
+    "title": "Statistics",
+    "description": "Mean, median, mode, and graphical representation",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 15,
+    "title": "Probability",
+    "description": "Basic probability concepts and problems",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 1,
+    "title": "Chemical Reactions and Equations",
+    "description": "Types of reactions, balancing equations, oxidation and reduction",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 2,
+    "title": "Acids, Bases and Salts",
+    "description": "Properties, pH scale, common salts and uses",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 3,
+    "title": "Metals and Non-metals",
+    "description": "Physical and chemical properties, corrosion, extraction",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 4,
+    "title": "Carbon and its Compounds",
+    "description": "Covalent bonding, hydrocarbons, functional groups",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 5,
+    "title": "Periodic Classification of Elements",
+    "description": "Modern periodic table and periodic properties",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 6,
+    "title": "Life Processes",
+    "description": "Nutrition, respiration, transportation and excretion",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 7,
+    "title": "Control and Coordination",
+    "description": "Nervous system and hormonal coordination",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 8,
+    "title": "How do Organisms Reproduce",
+    "description": "Modes of reproduction and human reproductive system",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 9,
+    "title": "Heredity and Evolution",
+    "description": "Mendel's experiments, inheritance patterns, evolution",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 10,
+    "title": "Light - Reflection and Refraction",
+    "description": "Image formation by mirrors and lenses",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 11,
+    "title": "The Human Eye and the Colourful World",
+    "description": "Structure of eye, defects of vision, dispersion",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 12,
+    "title": "Electricity",
+    "description": "Electric current, Ohm's law, electrical energy and power",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 13,
+    "title": "Magnetic Effects of Electric Current",
+    "description": "Magnetic field, electromagnetic induction, motors and generators",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 14,
+    "title": "Sources of Energy",
+    "description": "Renewable and non-renewable energy sources",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 15,
+    "title": "Our Environment",
+    "description": "Ecosystems, food chains, environmental issues",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 16,
+    "title": "Sustainable Management of Natural Resources",
+    "description": "Conservation and sustainable use of resources",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "The Rise of Nationalism in Europe",
+    "description": "Unification of Italy and Germany",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 2,
+    "title": "Nationalism in India",
+    "description": "Indian freedom struggle and Gandhi",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 3,
+    "title": "The Making of a Global World",
+    "description": "Globalization in historical perspective",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 4,
+    "title": "The Age of Industrialisation",
+    "description": "Industrial revolution and its impact",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 5,
+    "title": "Print Culture and the Modern World",
+    "description": "History of printing and its impact",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 6,
+    "title": "Resources and Development",
+    "description": "Types and conservation of resources",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 7,
+    "title": "Forest and Wildlife Resources",
+    "description": "Biodiversity and conservation",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 8,
+    "title": "Water Resources",
+    "description": "Water scarcity and management",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 9,
+    "title": "Agriculture",
+    "description": "Types of farming and agricultural development",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 10,
+    "title": "Minerals and Energy Resources",
+    "description": "Types of minerals and energy conservation",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 11,
+    "title": "Manufacturing Industries",
+    "description": "Industrial location and development",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 12,
+    "title": "Lifelines of National Economy",
+    "description": "Transport and communication",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 13,
+    "title": "Power Sharing",
+    "description": "Forms of power sharing in democracy",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 14,
+    "title": "Federalism",
+    "description": "Federal system in India",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 15,
+    "title": "Gender, Religion and Caste",
+    "description": "Social divisions and politics",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 16,
+    "title": "Political Parties",
+    "description": "Party system in India",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 17,
+    "title": "Outcomes of Democracy",
+    "description": "Assessment of democracy",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 18,
+    "title": "Development",
+    "description": "Economic development indicators",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 19,
+    "title": "Sectors of the Indian Economy",
+    "description": "Primary, secondary, and tertiary sectors",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 20,
+    "title": "Money and Credit",
+    "description": "Modern forms of money and credit system",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 21,
+    "title": "Globalisation and the Indian Economy",
+    "description": "Impact of globalization on India",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 22,
+    "title": "Consumer Rights",
+    "description": "Consumer protection and awareness",
+    "board_name": "CBSE"
+  },
+  {
+    "class_name": "Class 9",
     "subject_name": "Kannada",
     "chapter_number": 1,
-    "title": "Nanna Mane",
-    "description": "Basic Kannada vocabulary",
+    "title": "Nadina Parisara",
+    "description": "Kannada gadya - nadige mattu parisara",
     "board_name": "Karnataka State Board"
   },
   {
-    "class_name": "Class 6",
-    "subject_name": "Science",
+    "class_name": "Class 9",
+    "subject_name": "Kannada",
+    "chapter_number": 2,
+    "title": "Swatantrya Senani",
+    "description": "Bharatada swatantrya horatada kathegalu",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Kannada",
+    "chapter_number": 3,
+    "title": "Shivaratri Mahatme",
+    "description": "Kannada sahitya - Dharmika kathegalu",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Kannada",
+    "chapter_number": 4,
+    "title": "Kavirajamarga",
+    "description": "Kannada sahitya itihasa",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Kannada",
+    "chapter_number": 5,
+    "title": "Basavanna Vachanagalu",
+    "description": "Basaveshwara vachanasahitya",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "English",
     "chapter_number": 1,
-    "title": "Living and Non-Living",
-    "description": "Characteristics of living things",
+    "title": "The Fun They Had",
+    "description": "Story about future education",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 2,
+    "title": "The Adventures of Toto",
+    "description": "Humorous story about a pet monkey",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 3,
+    "title": "In the Kingdom of Fools",
+    "description": "Folk tale with a moral lesson",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 4,
+    "title": "The Road Not Taken",
+    "description": "Famous poem by Robert Frost",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "English",
+    "chapter_number": 5,
+    "title": "The Lake Isle of Innisfree",
+    "description": "Poem by W.B. Yeats",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 1,
+    "title": "Do Bailon Ki Katha",
+    "description": "Premchand ki kahani",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 2,
+    "title": "Reedh Ki Haddi",
+    "description": "Jagdish Chandra Mathur ka ekaanki",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 3,
+    "title": "Sakhiyan",
+    "description": "Kabir das ke dohe",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Hindi",
+    "chapter_number": 4,
+    "title": "Vaakh",
+    "description": "Lal Ded ki kavita",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 1,
+    "title": "Number Systems",
+    "description": "Real numbers and irrational numbers",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 2,
+    "title": "Polynomials",
+    "description": "Algebraic expressions and identities",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 3,
+    "title": "Linear Equations in Two Variables",
+    "description": "Graphical and algebraic solutions",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 4,
+    "title": "Quadrilaterals",
+    "description": "Properties of parallelograms and quadrilaterals",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 5,
+    "title": "Triangles",
+    "description": "Congruence and similarity of triangles",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 6,
+    "title": "Circles",
+    "description": "Properties and theorems of circles",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 7,
+    "title": "Surface Areas and Volumes",
+    "description": "Mensuration of 3D shapes",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Mathematics",
+    "chapter_number": 8,
+    "title": "Statistics",
+    "description": "Data representation and analysis",
     "board_name": "Karnataka State Board"
   },
   {
     "class_name": "Class 9",
     "subject_name": "Science",
     "chapter_number": 1,
-    "title": "Matter",
-    "description": "Properties and classification",
+    "title": "Matter in Our Surroundings",
+    "description": "States of matter and properties",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 2,
+    "title": "Is Matter Around Us Pure",
+    "description": "Mixtures and solutions",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 3,
+    "title": "Atoms and Molecules",
+    "description": "Atomic structure and chemical formulae",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 4,
+    "title": "Cell - The Fundamental Unit of Life",
+    "description": "Cell structure and functions",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 5,
+    "title": "Tissues",
+    "description": "Plant and animal tissues",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 6,
+    "title": "Motion",
+    "description": "Distance, speed, and equations of motion",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 7,
+    "title": "Force and Laws of Motion",
+    "description": "Newton's laws and applications",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 8,
+    "title": "Gravitation",
+    "description": "Universal law of gravitation",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 9,
+    "title": "Work and Energy",
+    "description": "Work, energy, and power",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Science",
+    "chapter_number": 10,
+    "title": "Sound",
+    "description": "Production and propagation of sound",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "The French Revolution",
+    "description": "Beginning of modern era",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 2,
+    "title": "Socialism in Europe",
+    "description": "Rise of socialism",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 3,
+    "title": "Constitutional Design",
+    "description": "Making of Indian Constitution",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 4,
+    "title": "Electoral Politics",
+    "description": "Elections in democracy",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 5,
+    "title": "The Story of Village Palampur",
+    "description": "Introduction to economics",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 6,
+    "title": "India - Size and Location",
+    "description": "Physical features of India",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 7,
+    "title": "Drainage System",
+    "description": "Rivers and drainage in India",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 9",
+    "subject_name": "Social Science",
+    "chapter_number": 8,
+    "title": "Climate",
+    "description": "Indian climate and monsoons",
     "board_name": "Karnataka State Board"
   },
   {
     "class_name": "Class 10",
-    "subject_name": "Science",
+    "subject_name": "Kannada",
     "chapter_number": 1,
-    "title": "Electricity",
-    "description": "Electric current, resistance and circuits",
+    "title": "Vachana Sahitya",
+    "description": "Basava mattu itara vachanakaaragala rachanegalu",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Kannada",
+    "chapter_number": 2,
+    "title": "Karnataka Darshana",
+    "description": "Karnatakada pramukha stalagalu",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Kannada",
+    "chapter_number": 3,
+    "title": "Jnapaka Chitrashale",
+    "description": "B M Shri sahitya",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Kannada",
+    "chapter_number": 4,
+    "title": "Akkamahadevi Vachanagalu",
+    "description": "Mahila vachanakaara",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Kannada",
+    "chapter_number": 5,
+    "title": "Mookajjiya Kanasugalu",
+    "description": "K Shivaram Karanth navalika",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 1,
+    "title": "A Letter to God",
+    "description": "Story highlighting faith and hope",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 2,
+    "title": "Dust of Snow",
+    "description": "Poem by Robert Frost",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 3,
+    "title": "Fire and Ice",
+    "description": "Poem about human emotions",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 4,
+    "title": "Nelson Mandela: Long Walk to Freedom",
+    "description": "Autobiographical account",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "English",
+    "chapter_number": 5,
+    "title": "A Tiger in the Zoo",
+    "description": "Poem about animal captivity",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 1,
+    "title": "Surdas Ke Pad",
+    "description": "Bhakti kavya",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 2,
+    "title": "Ram Lakshman Parshuram Samvad",
+    "description": "Ramcharitmanas se ansh",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 3,
+    "title": "Netaji Ka Chasma",
+    "description": "Deshbhakti par kahani",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Hindi",
+    "chapter_number": 4,
+    "title": "Balgobin Bhagat",
+    "description": "Gramya jeevan par kahani",
     "board_name": "Karnataka State Board"
   },
   {
@@ -532,103 +1484,279 @@
     "subject_name": "Mathematics",
     "chapter_number": 1,
     "title": "Real Numbers",
-    "description": "Euclid's division lemma",
+    "description": "Euclid's division lemma and fundamental theorem",
     "board_name": "Karnataka State Board"
   },
   {
-    "class_name": "Class 1",
-    "subject_name": "Tamil",
-    "chapter_number": 1,
-    "title": "என் குடும்பம்",
-    "description": "Basic Tamil vocabulary",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Measurements",
-    "description": "Units and measurement tools",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "subject_name": "Mathematics",
-    "chapter_number": 1,
-    "title": "Sets",
-    "description": "Introduction to set theory",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
     "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Life Processes",
-    "description": "Nutrition, respiration, excretion",
-    "board_name": "Tamil Nadu State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "subject_name": "Marathi",
-    "chapter_number": 1,
-    "title": "माझं घर",
-    "description": "Basic Marathi comprehension",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Living Things",
-    "description": "Classification and properties",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 9",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Laws of Motion",
-    "description": "Newton’s laws and applications",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 10",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Chemical Reactions",
-    "description": "Types of chemical changes",
-    "board_name": "Maharashtra State Board"
-  },
-  {
-    "class_name": "Class 1",
-    "subject_name": "Malayalam",
-    "chapter_number": 1,
-    "title": "എന്റെ വീട്ടിൽ",
-    "description": "Basic Malayalam reading",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 6",
-    "subject_name": "Science",
-    "chapter_number": 1,
-    "title": "Root System",
-    "description": "Parts and functions of roots",
-    "board_name": "Kerala State Board"
-  },
-  {
-    "class_name": "Class 9",
     "subject_name": "Mathematics",
-    "chapter_number": 1,
+    "chapter_number": 2,
     "title": "Polynomials",
-    "description": "Introduction to polynomials",
-    "board_name": "Kerala State Board"
+    "description": "Zeros and relationship between zeros and coefficients",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 3,
+    "title": "Pair of Linear Equations in Two Variables",
+    "description": "Graphical and algebraic methods",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 4,
+    "title": "Quadratic Equations",
+    "description": "Solutions using factorization and formula",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 5,
+    "title": "Arithmetic Progressions",
+    "description": "Nth term and sum of AP",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 6,
+    "title": "Triangles",
+    "description": "Similarity and Pythagoras theorem",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 7,
+    "title": "Coordinate Geometry",
+    "description": "Distance and section formula",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 8,
+    "title": "Introduction to Trigonometry",
+    "description": "Trigonometric ratios and identities",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 9,
+    "title": "Circles",
+    "description": "Tangents and their properties",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 10,
+    "title": "Surface Areas and Volumes",
+    "description": "Combinations of solids",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 11,
+    "title": "Statistics",
+    "description": "Mean, median, mode",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Mathematics",
+    "chapter_number": 12,
+    "title": "Probability",
+    "description": "Basic probability concepts",
+    "board_name": "Karnataka State Board"
   },
   {
     "class_name": "Class 10",
     "subject_name": "Science",
     "chapter_number": 1,
-    "title": "Chemical Reactions",
-    "description": "Balancing equations and reactions",
-    "board_name": "Kerala State Board"
+    "title": "Chemical Reactions and Equations",
+    "description": "Types of reactions and balancing",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 2,
+    "title": "Acids, Bases and Salts",
+    "description": "Properties and pH scale",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 3,
+    "title": "Metals and Non-metals",
+    "description": "Physical and chemical properties",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 4,
+    "title": "Carbon and its Compounds",
+    "description": "Covalent bonding and hydrocarbons",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 5,
+    "title": "Life Processes",
+    "description": "Nutrition, respiration, transportation",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 6,
+    "title": "Control and Coordination",
+    "description": "Nervous and hormonal coordination",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 7,
+    "title": "How do Organisms Reproduce",
+    "description": "Modes of reproduction",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 8,
+    "title": "Heredity and Evolution",
+    "description": "Mendel's experiments and evolution",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 9,
+    "title": "Light - Reflection and Refraction",
+    "description": "Image formation by mirrors and lenses",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 10,
+    "title": "The Human Eye and Colourful World",
+    "description": "Eye structure and defects of vision",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 11,
+    "title": "Electricity",
+    "description": "Electric current and Ohm's law",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 12,
+    "title": "Magnetic Effects of Electric Current",
+    "description": "Electromagnetic induction",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Science",
+    "chapter_number": 13,
+    "title": "Our Environment",
+    "description": "Ecosystems and food chains",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 1,
+    "title": "The Rise of Nationalism in Europe",
+    "description": "Unification movements",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 2,
+    "title": "Nationalism in India",
+    "description": "Indian freedom struggle",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 3,
+    "title": "Resources and Development",
+    "description": "Types and conservation of resources",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 4,
+    "title": "Water Resources",
+    "description": "Water scarcity and management",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 5,
+    "title": "Agriculture",
+    "description": "Types of farming in India",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 6,
+    "title": "Minerals and Energy Resources",
+    "description": "Types and conservation",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 7,
+    "title": "Power Sharing",
+    "description": "Forms of power sharing",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 8,
+    "title": "Federalism",
+    "description": "Federal system in India",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 9,
+    "title": "Development",
+    "description": "Economic development indicators",
+    "board_name": "Karnataka State Board"
+  },
+  {
+    "class_name": "Class 10",
+    "subject_name": "Social Science",
+    "chapter_number": 10,
+    "title": "Sectors of Indian Economy",
+    "description": "Primary, secondary, tertiary sectors",
+    "board_name": "Karnataka State Board"
   }
 ]
