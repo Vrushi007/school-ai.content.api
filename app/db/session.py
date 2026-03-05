@@ -13,6 +13,8 @@ class Settings(BaseSettings):
         "postgresql://postgres:password@postgres:5432/content_db"
     )
     ai_service_url: str = os.getenv("AI_SERVICE_URL", "http://localhost:8001")
+    jwt_secret_key: str = os.getenv("JWT_SECRET_KEY", "")
+    jwt_algorithm: str = os.getenv("JWT_ALGORITHM", "HS256")
 
     class Config:
         env_file = ".env"

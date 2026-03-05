@@ -11,12 +11,19 @@ from app.schemas.lesson_plan_session_content import (
     SessionDetailedData
 )
 from app.services import lesson_plan_service
+from app.utils.auth_dependencies import get_current_user_id, get_current_token
+from typing import List
 
 router = APIRouter(prefix="/lesson-plans", tags=["lesson-plans"])
 
 
 @router.post("/group-kps-into-sessions", response_model=GroupKpsResponse)
-async def group_kps_into_sessions(request: LessonPlanRequest, db: Session = Depends(get_db)):
+async def group_kps_into_sessions(
+    request: LessonPlanRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id),
+    token: str = Depends(get_current_token)
+):
     """
     Group key points into sessions or retrieve from cache.
     
@@ -44,7 +51,7 @@ async def group_kps_into_sessions(request: LessonPlanRequest, db: Session = Depe
     - success: Boolean indicating success
     """
     try:
-        from_cache, sessions, metadata = await lesson_plan_service.group_kps_into_sessions(db, request)
+        from_cache, sessions, metadata = await lesson_plan_service.group_kps_into_sessions(db, request, user_id, token)
         
         # Convert to Pydantic models
         session_data_list = [SessionData(**session) for session in sessions]
@@ -65,7 +72,12 @@ async def group_kps_into_sessions(request: LessonPlanRequest, db: Session = Depe
 
 
 @router.post("/generate-session-summary", response_model=SessionSummaryResponse)
-async def generate_session_summary(request: SessionSummaryRequest, db: Session = Depends(get_db)):
+async def generate_session_summary(
+    request: SessionSummaryRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id),
+    token: str = Depends(get_current_token)
+):
     """
     Generate session summary and objectives using AI service.
     
@@ -89,7 +101,7 @@ async def generate_session_summary(request: SessionSummaryRequest, db: Session =
     """
     try:
         session_number, session_title, summary, objectives = await lesson_plan_service.generate_session_summary(
-            db, request.session_map_id
+            db, request.session_map_id, token
         )
         
         return SessionSummaryResponse(
@@ -108,7 +120,12 @@ async def generate_session_summary(request: SessionSummaryRequest, db: Session =
 
 
 @router.post("/get-session-detailed-content", response_model=SessionDetailedResponse)
-async def get_session_detailed_content(request: SessionDetailedRequest, db: Session = Depends(get_db)):
+async def get_session_detailed_content(
+    request: SessionDetailedRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id),
+    token: str = Depends(get_current_token)
+):
     """
     Get or generate detailed session content.
     
@@ -134,7 +151,8 @@ async def get_session_detailed_content(request: SessionDetailedRequest, db: Sess
     try:
         from_cache, content = await lesson_plan_service.get_or_generate_session_detailed_content(
             db=db,
-            session_id=request.session_id
+            session_id=request.session_id,
+            token=token
         )
         
         return SessionDetailedResponse(
@@ -151,5 +169,47 @@ async def get_session_detailed_content(request: SessionDetailedRequest, db: Sess
     
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get/generate session detailed content: {str(e)}")
+
+
+@router.get("/my-lesson-plans")
+async def get_my_lesson_plans(
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id)
+):
+    """
+    Get all lesson plans created by the current user.
+    
+    This endpoint:
+    1. Retrieves all lesson plan inputs created by the authenticated user
+    2. For each lesson plan, fetches:
+       - Board, Class, Subject, Chapter details
+       - Session maps with their content status
+    3. Returns a list with all necessary information for display
+    
+    Response:
+    - List of lesson plans with:
+        - id: Lesson plan input ID
+        - board_name: Name of the board
+        - class_name: Name of the class
+        - subject_name: Name of the subject
+        - chapter_title: Title of the chapter
+        - planned_sessions: Number of planned sessions
+        - sessions: List of sessions with:
+            - session_number: Session number
+            - session_title: Session title
+            - session_map_id: ID of the session map
+            - has_summary: Boolean indicating if summary exists
+            - has_detailed_content: Boolean indicating if detailed content exists
+            - session_content_id: ID of session content (if exists)
+    """
+    try:
+        lesson_plans = lesson_plan_service.get_user_lesson_plans(db, user_id)
+        return {
+            "success": True,
+            "data": lesson_plans
+        }
+    
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to fetch lesson plans: {str(e)}")
 
 

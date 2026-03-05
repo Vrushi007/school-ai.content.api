@@ -4,12 +4,17 @@ from typing import List
 from app.db.session import get_db
 from app.schemas.subject import SubjectCreate, SubjectResponse, SubjectUpdate
 from app.services import subject_service, class_service
+from app.utils.auth_dependencies import get_current_user_id
 
 router = APIRouter(prefix="/subjects", tags=["subjects"])
 
 
 @router.post("", response_model=SubjectResponse, status_code=201)
-async def create_subject(subject: SubjectCreate, db: Session = Depends(get_db)):
+async def create_subject(
+    subject: SubjectCreate,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id)
+):
     # Validate class exists
     class_obj = class_service.get_class_by_id(db, subject.class_id)
     if not class_obj:
@@ -19,12 +24,21 @@ async def create_subject(subject: SubjectCreate, db: Session = Depends(get_db)):
 
 
 @router.get("/classes/{class_id}", response_model=List[SubjectResponse])
-async def get_subjects_by_class(class_id: int, db: Session = Depends(get_db)):
+async def get_subjects_by_class(
+    class_id: int,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id)
+):
     return subject_service.get_subjects_by_class(db, class_id)
 
 
 @router.put("/{subject_id}", response_model=SubjectResponse)
-async def update_subject(subject_id: int, subject_update: SubjectUpdate, db: Session = Depends(get_db)):
+async def update_subject(
+    subject_id: int,
+    subject_update: SubjectUpdate,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id)
+):
     if subject_update.class_id:
         class_obj = class_service.get_class_by_id(db, subject_update.class_id)
         if not class_obj:
@@ -37,7 +51,11 @@ async def update_subject(subject_id: int, subject_update: SubjectUpdate, db: Ses
 
 
 @router.delete("/{subject_id}", status_code=204)
-async def delete_subject(subject_id: int, db: Session = Depends(get_db)):
+async def delete_subject(
+    subject_id: int,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_current_user_id)
+):
     success = subject_service.delete_subject(db, subject_id)
     if not success:
         raise HTTPException(status_code=404, detail="Subject not found")

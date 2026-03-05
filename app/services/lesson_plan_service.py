@@ -49,7 +49,8 @@ async def call_group_kps_service(
     chapter_title: str,
     board_name: str,
     number_of_sessions: int,
-    key_points: List[dict]
+    key_points: List[dict],
+    token: str
 ) -> dict:
     """
     Call the external AI service to group key points into sessions.
@@ -60,6 +61,7 @@ async def call_group_kps_service(
         chapter_title: Title of the chapter
         board_name: Name of the board
         key_points: List of key point dictionaries with kp_id, title, difficulty, cognitive_level, prerequisites
+        token: JWT token for authentication
     
     Returns:
         The response JSON from the AI service
@@ -79,15 +81,21 @@ async def call_group_kps_service(
         "knowledge_points": key_points
     }
     
+    headers = {
+        "Authorization": f"Bearer {token}"
+    }
+    
     async with httpx.AsyncClient(timeout=120.0) as client:
-        response = await client.post(url, json=payload)
+        response = await client.post(url, json=payload, headers=headers)
         response.raise_for_status()
         return response.json()
 
 
 async def group_kps_into_sessions(
     db: Session,
-    request: LessonPlanRequest
+    request: LessonPlanRequest,
+    user_id: Optional[int] = None,
+    token: Optional[str] = None
 ) -> Tuple[bool, List[dict], dict]:
     """
     Group key points into sessions or retrieve from cache.
@@ -95,6 +103,8 @@ async def group_kps_into_sessions(
     Args:
         db: Database session
         request: LessonPlanRequest with all parameters
+        user_id: Optional user ID for personalized lesson plans
+        token: JWT token for authentication to AI service
     
     Returns:
         Tuple of (from_cache: bool, sessions: list, metadata: dict)
@@ -105,7 +115,8 @@ async def group_kps_into_sessions(
         class_id=request.class_id,
         subject_id=request.subject_id,
         chapter_id=request.chapter_id,
-        planned_sessions=request.planned_sessions
+        planned_sessions=request.planned_sessions,
+        user_id=user_id
     )
     
     # Check if we have a cached result
@@ -209,7 +220,8 @@ async def group_kps_into_sessions(
         chapter_title=chapter.title,
         board_name=board.name,
         number_of_sessions=request.planned_sessions,
-        key_points=formatted_kps
+        key_points=formatted_kps,
+        token=token
     )
     
     # Check if AI service returned success
@@ -233,6 +245,7 @@ async def group_kps_into_sessions(
             subject_id=request.subject_id,
             chapter_id=request.chapter_id,
             planned_sessions=request.planned_sessions,
+            created_by_user_id=user_id,
             input_hash=input_hash
         )
         lesson_input = create_lesson_plan_input(db, input_create)
@@ -291,7 +304,8 @@ async def call_generate_session_summary(
     class_name: str,
     subject: str,
     session_title: str,
-    knowledge_points: List[Dict[str, Any]]
+    knowledge_points: List[Dict[str, Any]],
+    token: str
 ) -> dict:
     """
     Call the external AI service to generate session summary.
@@ -303,6 +317,7 @@ async def call_generate_session_summary(
         subject: Subject name
         session_title: Title of the session
         knowledge_points: List of key points with kp_id, title, difficulty, cognitive_level
+        token: JWT token for authentication
     
     Returns:
         The response JSON from the AI service
@@ -321,15 +336,20 @@ async def call_generate_session_summary(
         "knowledge_points": knowledge_points
     }
     
+    headers = {
+        "Authorization": f"Bearer {token}"
+    }
+    
     async with httpx.AsyncClient(timeout=120.0) as client:
-        response = await client.post(url, json=payload)
+        response = await client.post(url, json=payload, headers=headers)
         response.raise_for_status()
         return response.json()
 
 
 async def generate_session_summary(
     db: Session,
-    session_map_id: int
+    session_map_id: int,
+    token: Optional[str] = None
 ) -> Tuple[int, str, str, List[str]]:
     """
     Generate session summary using AI service and store in database.
@@ -337,6 +357,7 @@ async def generate_session_summary(
     Args:
         db: Database session
         session_map_id: ID of the session map
+        token: JWT token for authentication to AI service
     
     Returns:
         Tuple of (session_number, session_title, summary, objectives)
@@ -403,7 +424,8 @@ async def generate_session_summary(
         class_name=class_obj.name,
         subject=subject.name,
         session_title=session_map.session_title,
-        knowledge_points=knowledge_points
+        knowledge_points=knowledge_points,
+        token=token
     )
     
     # Check if AI service returned success
@@ -446,7 +468,8 @@ async def call_generate_detailed_content(
     duration: str,
     summary: str,
     objectives: List[str],
-    kp_list: List[Dict[str, Any]]
+    kp_list: List[Dict[str, Any]],
+    token: str
 ) -> dict:
     """
     Call the external AI service to generate detailed session content.
@@ -459,6 +482,7 @@ async def call_generate_detailed_content(
         summary: Session summary
         objectives: List of objectives
         kp_list: List of key points with title and description
+        token: JWT token for authentication
     
     Returns:
         The response JSON from the AI service
@@ -478,15 +502,20 @@ async def call_generate_detailed_content(
         "kp_list": kp_list
     }
     
+    headers = {
+        "Authorization": f"Bearer {token}"
+    }
+    
     async with httpx.AsyncClient(timeout=180.0) as client:
-        response = await client.post(url, json=payload)
+        response = await client.post(url, json=payload, headers=headers)
         response.raise_for_status()
         return response.json()
 
 
 async def get_or_generate_session_detailed_content(
     db: Session,
-    session_id: int
+    session_id: int,
+    token: Optional[str] = None
 ) -> Tuple[bool, Dict[str, Any]]:
     """
     Get detailed session content from cache or generate it using AI service.
@@ -494,6 +523,7 @@ async def get_or_generate_session_detailed_content(
     Args:
         db: Database session
         session_id: ID of the session content record
+        token: JWT token for authentication to AI service
     
     Returns:
         Tuple of (from_cache: bool, content: dict)
@@ -565,7 +595,8 @@ async def get_or_generate_session_detailed_content(
         duration="40 mins",  # Default duration
         summary=summary,
         objectives=objectives,
-        kp_list=kp_list
+        kp_list=kp_list,
+        token=token
     )
     
     # Check if AI service returned success
@@ -581,4 +612,69 @@ async def get_or_generate_session_detailed_content(
     db.refresh(session_content)
     
     return False, content
+
+
+def get_user_lesson_plans(db: Session, user_id: int) -> List[Dict[str, Any]]:
+    """
+    Get all lesson plans created by a specific user.
+    
+    Args:
+        db: Database session
+        user_id: User ID to filter lesson plans
+    
+    Returns:
+        List of lesson plan dictionaries with all related information
+    """
+    from app.services import board_service, class_service, subject_service, chapter_service
+    
+    # Get all lesson plan inputs for this user
+    lesson_inputs = db.query(LessonPlanInput).filter(
+        LessonPlanInput.created_by_user_id == user_id
+    ).order_by(LessonPlanInput.created_at.desc()).all()
+    
+    result = []
+    
+    for lesson_input in lesson_inputs:
+        # Get related entities
+        board = board_service.get_board_by_id(db, lesson_input.board_id)
+        class_obj = class_service.get_class_by_id(db, lesson_input.class_id)
+        subject = subject_service.get_subject_by_id(db, lesson_input.subject_id)
+        chapter = chapter_service.get_chapter_by_id(db, lesson_input.chapter_id)
+        
+        # Get session maps for this lesson input
+        session_maps = get_session_maps_by_input_id(db, lesson_input.id)
+        
+        # For each session map, check if content exists
+        sessions_data = []
+        for session_map in session_maps:
+            # Check if session content exists
+            session_content = db.query(LessonPlanSessionContent).filter(
+                LessonPlanSessionContent.session_id == session_map.id
+            ).first()
+            
+            sessions_data.append({
+                "session_number": session_map.session_number,
+                "session_title": session_map.session_title,
+                "session_map_id": session_map.id,
+                "kp_ids": [int(kp_id) if isinstance(kp_id, str) else kp_id for kp_id in session_map.kp_ids] if session_map.kp_ids else [],
+                "has_summary": session_content is not None,
+                "has_detailed_content": session_content is not None and session_content.session_content is not None,
+                "session_content_id": session_content.id if session_content else None,
+                "summary": session_content.session_summary.get("summary") if session_content else None,
+                "objectives": session_content.session_summary.get("objectives") if session_content else None
+            })
+        
+        result.append({
+            "id": lesson_input.id,
+            "board_name": board.name if board else "Unknown",
+            "class_name": class_obj.name if class_obj else "Unknown",
+            "subject_name": subject.name if subject else "Unknown",
+            "chapter_title": chapter.title if chapter else "Unknown",
+            "chapter_id": lesson_input.chapter_id,
+            "planned_sessions": lesson_input.planned_sessions,
+            "created_at": lesson_input.created_at.isoformat(),
+            "sessions": sessions_data
+        })
+    
+    return result
 

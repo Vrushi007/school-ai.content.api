@@ -73,6 +73,30 @@ def get_key_points_by_chapter(db: Session, chapter_id: int) -> List[KeyPoint]:
     return key_points
 
 
+def get_key_points_by_ids(db: Session, key_point_ids: List[int]) -> List[KeyPoint]:
+    """Get key points by a list of IDs"""
+    key_points = (
+        db.query(KeyPoint)
+        .options(joinedload(KeyPoint.key_point_contents))
+        .filter(KeyPoint.id.in_(key_point_ids))
+        .all()
+    )
+    
+    # Manually set content attribute from latest active key_point_content
+    for kp in key_points:
+        if kp.key_point_contents:
+            active_contents = [c for c in kp.key_point_contents if c.is_active]
+            if active_contents:
+                latest = sorted(active_contents, key=lambda x: x.created_at, reverse=True)[0]
+                kp.content = latest.content
+            else:
+                kp.content = None
+        else:
+            kp.content = None
+    
+    return key_points
+
+
 def get_all_key_points(db: Session, skip: int = 0, limit: int = 100) -> List[KeyPoint]:
     return db.query(KeyPoint).offset(skip).limit(limit).all()
 

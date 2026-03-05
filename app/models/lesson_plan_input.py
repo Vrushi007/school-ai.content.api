@@ -13,6 +13,7 @@ class LessonPlanInput(Base):
     subject_id = Column(Integer, ForeignKey("subjects.id"), nullable=False, index=True)
     chapter_id = Column(Integer, ForeignKey("chapters.id"), nullable=False, index=True)
     planned_sessions = Column(Integer, nullable=False)
+    created_by_user_id = Column(Integer, nullable=True, index=True)  # References user in auth.api (no FK - different DB)
     input_hash = Column(Text, unique=True, nullable=False, index=True)
     created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
 

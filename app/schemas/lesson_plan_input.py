@@ -1,5 +1,6 @@
 from pydantic import BaseModel, ConfigDict
 from datetime import datetime
+from typing import Optional
 
 
 class LessonPlanRequest(BaseModel):
@@ -16,6 +17,7 @@ class LessonPlanInputBase(BaseModel):
     subject_id: int
     chapter_id: int
     planned_sessions: int
+    created_by_user_id: Optional[int] = None
     input_hash: str
 
 
